@@ -1,0 +1,3128 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "stroke_information",
+            "patterns": [
+                "What is a stroke?",
+                "Can you explain what a stroke is?",
+                "Define stroke.",
+                "Tell me about stroke.",
+                "What happens during a stroke?"
+            ],
+            "responses": [
+                "A stroke occurs when the blood supply to part of your brain is interrupted or reduced, preventing brain tissue from getting oxygen and nutrients.",
+                "A stroke is a medical emergency that happens when the blood flow to the brain is blocked or a blood vessel in the brain bursts.",
+                "There are two main types of stroke: ischemic, caused by a blockage, and hemorrhagic, caused by bleeding.",
+                "A stroke can cause lasting brain damage, long-term disability, or even death.",
+                "The severity of a stroke depends on how long the brain goes without adequate blood flow."
+            ]
+        },
+        {
+            "tag": "stroke_medicine",
+            "patterns": [
+                "Are there any medicines for stroke?",
+                "What medications are used to treat stroke?",
+                "Can you list drugs for stroke?",
+                "What are common stroke medications?",
+                "Is there medicine to prevent stroke?"
+            ],
+            "responses": [
+                "Antiplatelet drugs like aspirin are commonly used to reduce the risk of a second stroke.",
+                "Anticoagulants, such as warfarin, help prevent blood clots that could cause strokes.",
+                "Thrombolytics, like tPA (tissue plasminogen activator), can dissolve blood clots during an ischemic stroke.",
+                "Blood pressure medications are often prescribed to manage high blood pressure and reduce stroke risk.",
+                "Cholesterol-lowering drugs, such as statins, are used to reduce stroke risk by lowering cholesterol levels."
+            ]
+        },
+        {
+            "tag": "stroke_symptoms",
+            "patterns": [
+                "What are the symptoms of a stroke?",
+                "Can you list stroke symptoms?",
+                "How can I tell if someone is having a stroke?",
+                "What signs indicate a stroke?",
+                "What should I look for to identify a stroke?"
+            ],
+            "responses": [
+                "Symptoms of a stroke include sudden numbness or weakness in the face, arm, or leg, especially on one side of the body.",
+                "Other symptoms include sudden confusion, trouble speaking, or difficulty understanding speech.",
+                "Look for sudden trouble seeing in one or both eyes and sudden difficulty walking, dizziness, or loss of balance.",
+                "A severe headache with no known cause can also be a sign of a stroke.",
+                "Act FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services."
+            ]
+        },
+        {
+            "tag": "stroke_treatment",
+            "patterns": [
+                "What are the treatments for a stroke?",
+                "How is a stroke treated?",
+                "What are the immediate treatments for a stroke?",
+                "What should be done if someone is having a stroke?",
+                "What are the emergency treatments for stroke?"
+            ],
+            "responses": [
+                "Immediate treatment for ischemic stroke may include clot-dissolving medications like tPA.",
+                "Emergency treatments for hemorrhagic stroke include medications to reduce bleeding and surgery to repair blood vessels.",
+                "Long-term treatment focuses on rehabilitation, including physical, occupational, and speech therapy.",
+                "Managing underlying conditions such as hypertension and diabetes is crucial for stroke treatment.",
+                "Doctors may also recommend lifestyle changes to reduce the risk of future strokes."
+            ]
+        },
+        {
+            "tag": "stroke_remedies",
+            "patterns": [
+                "Are there home remedies for stroke recovery?",
+                "What are some natural remedies for stroke?",
+                "Can lifestyle changes help with stroke recovery?",
+                "What home care is needed after a stroke?",
+                "How can diet and exercise help with stroke recovery?"
+            ],
+            "responses": [
+                "Home remedies for stroke recovery focus on rehabilitation exercises and a healthy lifestyle.",
+                "A balanced diet rich in fruits, vegetables, and whole grains can support recovery.",
+                "Regular physical activity, as recommended by a doctor, can improve strength and mobility.",
+                "Managing stress and maintaining a positive outlook are important for stroke recovery.",
+                "Avoiding smoking and limiting alcohol intake can help prevent further strokes."
+            ]
+        },
+        {
+            "tag": "copd_information",
+            "patterns": [
+                "What is COPD?",
+                "Can you explain what COPD is?",
+                "Define COPD.",
+                "Tell me about COPD.",
+                "What happens in COPD?"
+            ],
+            "responses": [
+                "COPD, or Chronic Obstructive Pulmonary Disease, is a chronic inflammatory lung disease that causes obstructed airflow from the lungs.",
+                "COPD is a progressive disease, meaning it typically worsens over time.",
+                "The main causes of COPD are long-term exposure to irritating gases or particulate matter, most often from cigarette smoke.",
+                "People with COPD are at increased risk of developing heart disease, lung cancer, and other conditions.",
+                "COPD includes conditions such as emphysema and chronic bronchitis."
+            ]
+        },
+        {
+            "tag": "copd_medicine",
+            "patterns": [
+                "Are there any medicines for COPD?",
+                "What medications are used to treat COPD?",
+                "Can you list drugs for COPD?",
+                "What are common COPD medications?",
+                "Is there medicine to manage COPD?"
+            ],
+            "responses": [
+                "Bronchodilators are commonly prescribed to help open the airways in the lungs.",
+                "Inhaled steroids can reduce airway inflammation and help prevent exacerbations.",
+                "Phosphodiesterase-4 inhibitors can help decrease inflammation and relax the airways.",
+                "Antibiotics may be used during bacterial infections to prevent complications.",
+                "Oxygen therapy might be necessary for some people with severe COPD to help with breathing."
+            ]
+        },
+        {
+            "tag": "copd_symptoms",
+            "patterns": [
+                "What are the symptoms of COPD?",
+                "Can you list COPD symptoms?",
+                "How can I tell if someone has COPD?",
+                "What signs indicate COPD?",
+                "What should I look for to identify COPD?"
+            ],
+            "responses": [
+                "Symptoms of COPD include shortness of breath, especially during physical activities.",
+                "Other symptoms include wheezing and a chronic cough that may produce mucus.",
+                "People with COPD often experience chest tightness and frequent respiratory infections.",
+                "Fatigue and lack of energy are also common symptoms of COPD.",
+                "In severe cases, COPD can cause unintended weight loss and swelling in ankles, feet, or legs."
+            ]
+        },
+        {
+            "tag": "copd_treatment",
+            "patterns": [
+                "What are the treatments for COPD?",
+                "How is COPD treated?",
+                "What are the immediate treatments for COPD?",
+                "What should be done if someone has COPD?",
+                "What are the long-term treatments for COPD?"
+            ],
+            "responses": [
+                "Treatment for COPD often includes a combination of medications, such as bronchodilators and steroids.",
+                "Pulmonary rehabilitation programs can help improve the well-being of people with COPD.",
+                "Oxygen therapy may be necessary for individuals with severe COPD.",
+                "Lifestyle changes, such as quitting smoking and avoiding lung irritants, are crucial in managing COPD.",
+                "In advanced cases, surgical options like lung volume reduction surgery or lung transplant may be considered."
+            ]
+        },
+        {
+            "tag": "copd_remedies",
+            "patterns": [
+                "Are there home remedies for COPD?",
+                "What are some natural remedies for COPD?",
+                "Can lifestyle changes help with COPD?",
+                "What home care is needed for COPD?",
+                "How can diet and exercise help with COPD?"
+            ],
+            "responses": [
+                "Quitting smoking is the most important step in managing COPD.",
+                "Eating a healthy diet and maintaining a healthy weight can help manage symptoms.",
+                "Regular physical activity can improve overall health and lung function.",
+                "Using a humidifier at home can help keep airways clear of mucus.",
+                "Breathing exercises, such as pursed-lip breathing, can help manage breathlessness."
+            ]
+        },
+        {
+            "tag": "asthma_information",
+            "patterns": [
+                "What is asthma?",
+                "Can you explain what asthma is?",
+                "Define asthma.",
+                "Tell me about asthma.",
+                "What happens in asthma?"
+            ],
+            "responses": [
+                "Asthma is a chronic respiratory condition where the airways become inflamed and narrowed, making it difficult to breathe.",
+                "Asthma can cause recurring periods of wheezing, chest tightness, shortness of breath, and coughing.",
+                "The inflammation in asthma can be triggered by allergens, respiratory infections, exercise, and stress.",
+                "Asthma is a long-term disease that has no cure, but it can be managed with proper treatment.",
+                "Asthma symptoms can vary from mild to severe and can sometimes lead to life-threatening asthma attacks."
+            ]
+        },
+        {
+            "tag": "asthma_medicine",
+            "patterns": [
+                "Are there any medicines for asthma?",
+                "What medications are used to treat asthma?",
+                "Can you list drugs for asthma?",
+                "What are common asthma medications?",
+                "Is there medicine to manage asthma?"
+            ],
+            "responses": [
+                "Inhaled corticosteroids are the most effective long-term control medications for asthma.",
+                "Short-acting beta agonists (SABAs) like albuterol are used for quick relief of asthma symptoms.",
+                "Long-acting beta agonists (LABAs) are often used in combination with inhaled corticosteroids for better control.",
+                "Leukotriene modifiers, such as montelukast, help reduce inflammation and prevent asthma symptoms.",
+                "Oral corticosteroids may be prescribed for severe asthma exacerbations to reduce inflammation."
+            ]
+        },
+        {
+            "tag": "asthma_symptoms",
+            "patterns": [
+                "What are the symptoms of asthma?",
+                "Can you list asthma symptoms?",
+                "How can I tell if someone has asthma?",
+                "What signs indicate asthma?",
+                "What should I look for to identify asthma?"
+            ],
+            "responses": [
+                "Common symptoms of asthma include shortness of breath and wheezing.",
+                "Other symptoms include chest tightness and coughing, especially at night or early in the morning.",
+                "Asthma symptoms can be triggered by physical activity, cold air, allergens, or respiratory infections.",
+                "Persistent coughing or wheezing that doesn't go away with standard treatments can be a sign of asthma.",
+                "In severe cases, asthma can cause difficulty breathing, a high-pitched whistling sound when exhaling, and rapid breathing."
+            ]
+        },
+        {
+            "tag": "asthma_treatment",
+            "patterns": [
+                "What are the treatments for asthma?",
+                "How is asthma treated?",
+                "What are the immediate treatments for asthma?",
+                "What should be done if someone has asthma?",
+                "What are the long-term treatments for asthma?"
+            ],
+            "responses": [
+                "The primary treatment for asthma includes inhaled corticosteroids to reduce inflammation in the airways.",
+                "Quick-relief inhalers, like albuterol, are used to relieve symptoms during an asthma attack.",
+                "Long-term asthma control often involves daily medications such as inhaled corticosteroids and long-acting beta agonists.",
+                "Allergy treatments, including immunotherapy, can help reduce asthma symptoms triggered by allergens.",
+                "Regular monitoring and follow-up with a healthcare provider are essential to manage asthma effectively."
+            ]
+        },
+        {
+            "tag": "asthma_remedies",
+            "patterns": [
+                "Are there home remedies for asthma?",
+                "What are some natural remedies for asthma?",
+                "Can lifestyle changes help with asthma?",
+                "What home care is needed for asthma?",
+                "How can diet and exercise help with asthma?"
+            ],
+            "responses": [
+                "Avoiding asthma triggers, such as allergens and irritants, can help manage symptoms.",
+                "Using an air purifier at home can reduce exposure to asthma triggers.",
+                "Regular exercise, as advised by a healthcare provider, can improve overall respiratory health.",
+                "Eating a balanced diet rich in fruits and vegetables can support immune function and reduce inflammation.",
+                "Practicing breathing exercises, such as diaphragmatic breathing, can help improve lung function and manage symptoms."
+            ]
+        },
+        {
+            "tag": "cancer_information",
+            "patterns": [
+                "What is cancer?",
+                "Can you explain what cancer is?",
+                "Define cancer.",
+                "Tell me about cancer.",
+                "What happens in cancer?"
+            ],
+            "responses": [
+                "Cancer is a group of diseases involving abnormal cell growth with the potential to invade or spread to other parts of the body.",
+                "There are over 100 different types of cancer, each classified by the type of cell that is initially affected.",
+                "Cancer can develop in almost any organ or tissue, such as the lung, colon, breast, skin, bones, or nerve tissue.",
+                "The primary cause of cancer is genetic mutations that cause cells to grow uncontrollably.",
+                "Common risk factors for cancer include tobacco use, certain infections, radiation, lack of physical activity, poor diet, obesity, and environmental pollutants."
+            ]
+        },
+        {
+            "tag": "cancer_medicine",
+            "patterns": [
+                "Are there any medicines for cancer?",
+                "What medications are used to treat cancer?",
+                "Can you list drugs for cancer?",
+                "What are common cancer medications?",
+                "Is there medicine to manage cancer?"
+            ],
+            "responses": [
+                "Chemotherapy drugs are commonly used to kill or stop the growth of cancer cells.",
+                "Targeted therapy drugs focus on specific molecules and signaling pathways involved in cancer growth.",
+                "Immunotherapy uses the body's immune system to fight cancer.",
+                "Hormone therapy is used for cancers that are hormone-sensitive, such as breast and prostate cancer.",
+                "Radiation therapy uses high doses of radiation to kill cancer cells and shrink tumors."
+            ]
+        },
+        {
+            "tag": "cancer_symptoms",
+            "patterns": [
+                "What are the symptoms of cancer?",
+                "Can you list cancer symptoms?",
+                "How can I tell if someone has cancer?",
+                "What signs indicate cancer?",
+                "What should I look for to identify cancer?"
+            ],
+            "responses": [
+                "Common symptoms of cancer include unexplained weight loss, fever, fatigue, pain, and changes in the skin.",
+                "Other symptoms can include lumps or swelling, persistent cough, difficulty swallowing, and changes in bowel or bladder habits.",
+                "Symptoms can vary greatly depending on the type and location of the cancer.",
+                "Unusual bleeding or discharge and persistent indigestion or discomfort after eating can also be signs of cancer.",
+                "Early detection and screening are crucial as some cancers may not show symptoms until they are advanced."
+            ]
+        },
+        {
+            "tag": "cancer_treatment",
+            "patterns": [
+                "What are the treatments for cancer?",
+                "How is cancer treated?",
+                "What are the immediate treatments for cancer?",
+                "What should be done if someone has cancer?",
+                "What are the long-term treatments for cancer?"
+            ],
+            "responses": [
+                "Cancer treatment can include a combination of surgery, chemotherapy, radiation therapy, and targeted therapy.",
+                "Surgery aims to remove the tumor and surrounding tissue to prevent the spread of cancer.",
+                "Chemotherapy uses drugs to kill cancer cells or stop them from growing and dividing.",
+                "Radiation therapy uses high-energy radiation to target and kill cancer cells.",
+                "Targeted therapy focuses on specific molecules involved in cancer cell growth and progression."
+            ]
+        },
+        {
+            "tag": "cancer_remedies",
+            "patterns": [
+                "Are there home remedies for cancer?",
+                "What are some natural remedies for cancer?",
+                "Can lifestyle changes help with cancer?",
+                "What home care is needed for cancer?",
+                "How can diet and exercise help with cancer?"
+            ],
+            "responses": [
+                "While there are no home remedies that can cure cancer, maintaining a healthy lifestyle can support treatment and recovery.",
+                "Eating a balanced diet rich in fruits, vegetables, whole grains, and lean proteins can help support overall health.",
+                "Regular physical activity, as advised by a healthcare provider, can improve strength and well-being.",
+                "Stress management techniques, such as yoga, meditation, and deep breathing exercises, can help improve quality of life.",
+                "Avoiding tobacco, limiting alcohol intake, and protecting the skin from excessive sun exposure can help reduce the risk of cancer."
+            ]
+        },
+        {
+            "tag": "polio_information",
+            "patterns": [
+                "What is polio?",
+                "Can you explain what polio is?",
+                "Define polio.",
+                "Tell me about polio.",
+                "What happens in polio?"
+            ],
+            "responses": [
+                "Polio, or poliomyelitis, is a highly infectious viral disease that primarily affects young children.",
+                "The virus is transmitted through contaminated water or food and multiplies in the intestine.",
+                "In severe cases, polio can cause paralysis and respiratory issues.",
+                "Polio can invade the nervous system and cause irreversible damage.",
+                "There are three types of poliovirus: type 1, type 2, and type 3."
+            ]
+        },
+        {
+            "tag": "polio_medicine",
+            "patterns": [
+                "Are there any medicines for polio?",
+                "What medications are used to treat polio?",
+                "Can you list drugs for polio?",
+                "What are common polio medications?",
+                "Is there medicine to manage polio?"
+            ],
+            "responses": [
+                "There is no cure for polio once it has been contracted, but it can be prevented with vaccines.",
+                "Oral polio vaccine (OPV) and inactivated polio vaccine (IPV) are used to prevent polio.",
+                "Antivirals are not effective against polio; supportive care is the main treatment.",
+                "Pain relievers may be used to manage symptoms of polio.",
+                "In cases of respiratory paralysis, mechanical ventilation can be necessary."
+            ]
+        },
+        {
+            "tag": "polio_symptoms",
+            "patterns": [
+                "What are the symptoms of polio?",
+                "Can you list polio symptoms?",
+                "How can I tell if someone has polio?",
+                "What signs indicate polio?",
+                "What should I look for to identify polio?"
+            ],
+            "responses": [
+                "Initial symptoms of polio include fever, fatigue, headache, vomiting, stiffness in the neck, and pain in the limbs.",
+                "Most polio infections are asymptomatic, but some can lead to non-paralytic or paralytic polio.",
+                "Non-paralytic polio may cause flu-like symptoms and meningitis.",
+                "Paralytic polio can cause muscle weakness, loss of reflexes, and severe muscle pain or spasms.",
+                "In severe cases, polio can lead to permanent paralysis, often in the legs."
+            ]
+        },
+        {
+            "tag": "polio_treatment",
+            "patterns": [
+                "What are the treatments for polio?",
+                "How is polio treated?",
+                "What are the immediate treatments for polio?",
+                "What should be done if someone has polio?",
+                "What are the long-term treatments for polio?"
+            ],
+            "responses": [
+                "There is no specific cure for polio; treatment focuses on managing symptoms.",
+                "Supportive treatments include pain relief, physical therapy, and heat therapy to ease muscle spasms.",
+                "Mechanical ventilation may be necessary for patients with respiratory muscle paralysis.",
+                "Long-term care involves physical rehabilitation to prevent deformities and improve muscle function.",
+                "Polio survivors may require assistive devices like braces, crutches, or wheelchairs."
+            ]
+        },
+        {
+            "tag": "polio_remedies",
+            "patterns": [
+                "Are there home remedies for polio?",
+                "What are some natural remedies for polio?",
+                "Can lifestyle changes help with polio?",
+                "What home care is needed for polio?",
+                "How can diet and exercise help with polio?"
+            ],
+            "responses": [
+                "Home remedies can't cure polio, but supportive care is essential.",
+                "Maintaining a nutritious diet can support overall health and recovery.",
+                "Physical therapy exercises can help maintain muscle strength and flexibility.",
+                "Using heat packs or warm baths can help alleviate muscle pain and stiffness.",
+                "Ensuring proper hygiene and sanitation can prevent the spread of polio."
+            ]
+        },
+        {
+            "tag": "chandipura_information",
+            "patterns": [
+                "What is Chandipura virus?",
+                "Can you explain what Chandipura virus is?",
+                "Define Chandipura virus.",
+                "Tell me about Chandipura virus.",
+                "What happens in Chandipura virus infection?"
+            ],
+            "responses": [
+                "Chandipura virus (CHPV) is a member of the Rhabdoviridae family, which also includes the rabies virus.",
+                "The virus was first identified in the Chandipura district of Maharashtra, India, in 1965.",
+                "CHPV is primarily transmitted through sandflies and can cause encephalitis, particularly in children.",
+                "Infections can lead to severe neurological symptoms and have a high mortality rate in affected areas.",
+                "Outbreaks of Chandipura virus have been reported in various parts of India, primarily affecting children."
+            ]
+        },
+        {
+            "tag": "chandipura_medicine",
+            "patterns": [
+                "Are there any medicines for Chandipura virus?",
+                "What medications are used to treat Chandipura virus?",
+                "Can you list drugs for Chandipura virus?",
+                "What are common Chandipura virus medications?",
+                "Is there medicine to manage Chandipura virus?"
+            ],
+            "responses": [
+                "There is no specific antiviral treatment for Chandipura virus; management is mainly supportive.",
+                "Symptomatic treatment includes fever reducers, pain relievers, and medications to control seizures.",
+                "Intravenous fluids and electrolytes are administered to maintain hydration and electrolyte balance.",
+                "In severe cases, intensive care support, including mechanical ventilation, may be required.",
+                "Research is ongoing to find effective antiviral treatments for Chandipura virus."
+            ]
+        },
+        {
+            "tag": "chandipura_symptoms",
+            "patterns": [
+                "What are the symptoms of Chandipura virus?",
+                "Can you list Chandipura virus symptoms?",
+                "How can I tell if someone has Chandipura virus?",
+                "What signs indicate Chandipura virus infection?",
+                "What should I look for to identify Chandipura virus?"
+            ],
+            "responses": [
+                "Symptoms of Chandipura virus infection include sudden onset of high fever, headaches, and vomiting.",
+                "Other symptoms can include seizures, altered mental status, and unconsciousness.",
+                "In severe cases, the virus can cause encephalitis, leading to inflammation of the brain.",
+                "Patients may also experience muscle pain, photophobia (sensitivity to light), and neck stiffness.",
+                "Rapid progression to severe neurological symptoms is common in Chandipura virus infections."
+            ]
+        },
+        {
+            "tag": "chandipura_treatment",
+            "patterns": [
+                "What are the treatments for Chandipura virus?",
+                "How is Chandipura virus treated?",
+                "What are the immediate treatments for Chandipura virus?",
+                "What should be done if someone has Chandipura virus?",
+                "What are the long-term treatments for Chandipura virus?"
+            ],
+            "responses": [
+                "Treatment for Chandipura virus is primarily supportive and focuses on managing symptoms.",
+                "Hospitalization may be necessary for monitoring and supportive care, including intravenous fluids.",
+                "Antipyretics and analgesics are used to manage fever and pain.",
+                "Anticonvulsants may be required to control seizures in affected individuals.",
+                "Intensive care support, including respiratory support, may be needed for severe cases."
+            ]
+        },
+        {
+            "tag": "chandipura_remedies",
+            "patterns": [
+                "Are there home remedies for Chandipura virus?",
+                "What are some natural remedies for Chandipura virus?",
+                "Can lifestyle changes help with Chandipura virus?",
+                "What home care is needed for Chandipura virus?",
+                "How can diet and rest help with Chandipura virus?"
+            ],
+            "responses": [
+                "There are no home remedies that can cure Chandipura virus, but supportive care is essential.",
+                "Ensuring adequate hydration and rest can help support the body's recovery process.",
+                "Maintaining a nutritious diet can support the immune system and overall health.",
+                "Using mosquito nets and repellents can help prevent sandfly bites and reduce the risk of infection.",
+                "Seek immediate medical attention if symptoms of Chandipura virus infection are suspected."
+            ]
+        },
+        {
+            "tag": "diarrheal_information",
+            "patterns": [
+                "What is diarrhea?",
+                "Can you explain what diarrhea is?",
+                "Define diarrhea.",
+                "Tell me about diarrhea.",
+                "What happens during diarrhea?"
+            ],
+            "responses": [
+                "Diarrhea is characterized by loose, watery stools and frequent bowel movements.",
+                "Diarrhea occurs when the digestive system is unable to absorb water from the food you eat.",
+                "It can be caused by infections, food intolerances, and certain medications.",
+                "Diarrhea can lead to dehydration if not treated properly.",
+                "It's a common condition that usually resolves on its own within a few days."
+            ]
+        },
+        {
+            "tag": "diarrheal_medicine",
+            "patterns": [
+                "Are there any medicines for diarrhea?",
+                "What medications are used to treat diarrhea?",
+                "Can you list drugs for diarrhea?",
+                "What are common diarrhea medications?",
+                "Is there medicine to stop diarrhea?"
+            ],
+            "responses": [
+                "Over-the-counter medications like loperamide can help reduce diarrhea symptoms.",
+                "Bismuth subsalicylate is another common medication used to treat diarrhea.",
+                "In cases of bacterial infections, antibiotics may be prescribed.",
+                "Probiotics can help restore the natural balance of bacteria in the gut.",
+                "Oral rehydration solutions are used to prevent dehydration."
+            ]
+        },
+        {
+            "tag": "diarrheal_symptoms",
+            "patterns": [
+                "What are the symptoms of diarrhea?",
+                "Can you list diarrhea symptoms?",
+                "How can I tell if I have diarrhea?",
+                "What signs indicate diarrhea?",
+                "What should I look for to identify diarrhea?"
+            ],
+            "responses": [
+                "Symptoms of diarrhea include loose, watery stools and frequent bowel movements.",
+                "Other symptoms may include abdominal cramps, bloating, and nausea.",
+                "Fever and vomiting can also occur in some cases.",
+                "Dehydration is a common symptom, especially in severe cases.",
+                "You may also experience an urgent need to use the bathroom."
+            ]
+        },
+        {
+            "tag": "diarrheal_treatment",
+            "patterns": [
+                "What are the treatments for diarrhea?",
+                "How is diarrhea treated?",
+                "What are the immediate treatments for diarrhea?",
+                "What should be done if someone has diarrhea?",
+                "What are the emergency treatments for diarrhea?"
+            ],
+            "responses": [
+                "Treatment focuses on staying hydrated and replacing lost fluids and electrolytes.",
+                "Oral rehydration solutions are often recommended to prevent dehydration.",
+                "In some cases, over-the-counter medications like loperamide may be used.",
+                "If diarrhea is caused by a bacterial infection, antibiotics may be prescribed.",
+                "Avoiding certain foods and drinks that can irritate the digestive system is important."
+            ]
+        },
+        {
+            "tag": "diarrheal_remedies",
+            "patterns": [
+                "Are there home remedies for diarrhea?",
+                "What are some natural remedies for diarrhea?",
+                "Can lifestyle changes help with diarrhea?",
+                "What home care is needed for diarrhea?",
+                "How can diet and exercise help with diarrhea?"
+            ],
+            "responses": [
+                "Home remedies for diarrhea include drinking plenty of fluids and staying hydrated.",
+                "Eating a bland diet with foods like bananas, rice, applesauce, and toast can help.",
+                "Avoiding dairy products, fatty foods, and caffeine is recommended.",
+                "Probiotics can help restore the natural balance of bacteria in the gut.",
+                "Ginger tea and peppermint tea can help soothe the digestive system."
+            ]
+        },
+        {
+            "tag": "typhoid_information",
+            "patterns": [
+                "What is typhoid fever?",
+                "Can you explain what typhoid is?",
+                "Define typhoid.",
+                "Tell me about typhoid.",
+                "What happens during typhoid fever?"
+            ],
+            "responses": [
+                "Typhoid fever is a bacterial infection caused by Salmonella typhi.",
+                "It spreads through contaminated food and water.",
+                "Symptoms include high fever, weakness, stomach pain, and loss of appetite.",
+                "Typhoid fever can be life-threatening if not treated promptly.",
+                "It's common in areas with poor sanitation and limited access to clean water."
+            ]
+        },
+        {
+            "tag": "typhoid_medicine",
+            "patterns": [
+                "Are there any medicines for typhoid fever?",
+                "What medications are used to treat typhoid?",
+                "Can you list drugs for typhoid fever?",
+                "What are common typhoid medications?",
+                "Is there medicine to treat typhoid?"
+            ],
+            "responses": [
+                "Antibiotics like ciprofloxacin and azithromycin are commonly used to treat typhoid.",
+                "In some cases, ceftriaxone may be prescribed.",
+                "Antipyretics can help reduce fever.",
+                "It's important to complete the full course of antibiotics to prevent relapse.",
+                "Hydration and rest are crucial for recovery."
+            ]
+        },
+        {
+            "tag": "typhoid_symptoms",
+            "patterns": [
+                "What are the symptoms of typhoid fever?",
+                "Can you list typhoid symptoms?",
+                "How can I tell if I have typhoid fever?",
+                "What signs indicate typhoid?",
+                "What should I look for to identify typhoid fever?"
+            ],
+            "responses": [
+                "Symptoms of typhoid fever include high fever, weakness, and stomach pain.",
+                "Other symptoms may include headache, loss of appetite, and rash.",
+                "Some people experience constipation, while others have diarrhea.",
+                "A slow heartbeat and coughing may also occur.",
+                "It's important to seek medical attention if you suspect typhoid fever."
+            ]
+        },
+        {
+            "tag": "typhoid_treatment",
+            "patterns": [
+                "What are the treatments for typhoid fever?",
+                "How is typhoid treated?",
+                "What are the immediate treatments for typhoid fever?",
+                "What should be done if someone has typhoid?",
+                "What are the emergency treatments for typhoid fever?"
+            ],
+            "responses": [
+                "Treatment involves antibiotics to kill the bacteria causing the infection.",
+                "Hydration and rest are important for recovery.",
+                "In severe cases, hospitalization may be required for intravenous antibiotics.",
+                "Antipyretics can help manage fever and discomfort.",
+                "It's important to complete the full course of antibiotics to prevent relapse."
+            ]
+        },
+        {
+            "tag": "typhoid_remedies",
+            "patterns": [
+                "Are there home remedies for typhoid fever?",
+                "What are some natural remedies for typhoid?",
+                "Can lifestyle changes help with typhoid fever?",
+                "What home care is needed for typhoid?",
+                "How can diet and rest help with typhoid fever?"
+            ],
+            "responses": [
+                "Home remedies for typhoid fever include drinking plenty of fluids and staying hydrated.",
+                "Eating a nutritious diet with easily digestible foods can help recovery.",
+                "Getting plenty of rest is crucial for the body to heal.",
+                "Avoiding spicy and fatty foods can prevent irritation of the digestive system.",
+                "Maintaining good hygiene and sanitation can prevent the spread of typhoid."
+            ]
+        },
+        {
+            "tag": "hepatitis_information",
+            "patterns": [
+                "What is hepatitis?",
+                "Can you explain what hepatitis is?",
+                "Define hepatitis.",
+                "Tell me about hepatitis.",
+                "What happens during hepatitis?"
+            ],
+            "responses": [
+                "Hepatitis is an inflammation of the liver, often caused by viral infections.",
+                "There are several types, including hepatitis A, B, C, D, and E.",
+                "Symptoms can include fatigue, nausea, abdominal pain, and jaundice.",
+                "Hepatitis can lead to chronic liver disease and liver cancer if not treated.",
+                "It spreads through contaminated food, water, and body fluids."
+            ]
+        },
+        {
+            "tag": "hepatitis_medicine",
+            "patterns": [
+                "Are there any medicines for hepatitis?",
+                "What medications are used to treat hepatitis?",
+                "Can you list drugs for hepatitis?",
+                "What are common hepatitis medications?",
+                "Is there medicine to treat hepatitis?"
+            ],
+            "responses": [
+                "Antiviral medications like entecavir and tenofovir are used for hepatitis B.",
+                "Direct-acting antivirals (DAAs) like sofosbuvir are used for hepatitis C.",
+                "Interferons may be prescribed for certain types of hepatitis.",
+                "Hepatitis A and E usually do not require specific medications and resolve on their own.",
+                "Vaccines are available for hepatitis A and B to prevent infection."
+            ]
+        },
+        {
+            "tag": "hepatitis_symptoms",
+            "patterns": [
+                "What are the symptoms of hepatitis?",
+                "Can you list hepatitis symptoms?",
+                "How can I tell if I have hepatitis?",
+                "What signs indicate hepatitis?",
+                "What should I look for to identify hepatitis?"
+            ],
+            "responses": [
+                "Symptoms of hepatitis include fatigue, nausea, and abdominal pain.",
+                "Jaundice, or yellowing of the skin and eyes, is a common symptom.",
+                "Dark urine and pale stools can also be signs of hepatitis.",
+                "Some people experience loss of appetite and weight loss.",
+                "Joint pain and fever may also occur in some cases."
+            ]
+        },
+        {
+            "tag": "hepatitis_treatment",
+            "patterns": [
+                "What are the treatments for hepatitis?",
+                "How is hepatitis treated?",
+                "What are the immediate treatments for hepatitis?",
+                "What should be done if someone has hepatitis?",
+                "What are the emergency treatments for hepatitis?"
+            ],
+            "responses": [
+                "Treatment varies by type of hepatitis and may include antiviral medications.",
+                "Rest, hydration, and a healthy diet are important for recovery.",
+                "In chronic cases, regular monitoring and medication may be required.",
+                "Vaccination can prevent hepatitis A and B.",
+                "Avoiding alcohol and certain medications can help protect the liver."
+            ]
+        },
+        {
+            "tag": "hepatitis_remedies",
+            "patterns": [
+                "Are there home remedies for hepatitis?",
+                "What are some natural remedies for hepatitis?",
+                "Can lifestyle changes help with hepatitis?",
+                "What home care is needed for hepatitis?",
+                "How can diet and exercise help with hepatitis?"
+            ],
+            "responses": [
+                "Home remedies for hepatitis include drinking plenty of fluids and eating a balanced diet.",
+                "Avoiding alcohol and maintaining a healthy weight can protect the liver.",
+                "Rest and stress management are important for recovery.",
+                "Consuming foods rich in antioxidants can support liver health.",
+                "Practicing good hygiene and safe sex can prevent the spread of hepatitis."
+            ]
+        },
+        {
+            "tag": "cholera_information",
+            "patterns": [
+                "What is cholera?",
+                "Can you explain what cholera is?",
+                "Define cholera.",
+                "Tell me about cholera.",
+                "What happens during cholera?"
+            ],
+            "responses": [
+                "Cholera is a bacterial infection caused by Vibrio cholerae.",
+                "It spreads through contaminated water and food.",
+                "Symptoms include severe diarrhea, vomiting, and dehydration.",
+                "Cholera can be life-threatening if not treated promptly.",
+                "It's common in areas with poor sanitation and limited access to clean water."
+            ]
+        },
+        {
+            "tag": "cholera_medicine",
+            "patterns": [
+                "Are there any medicines for cholera?",
+                "What medications are used to treat cholera?",
+                "Can you list drugs for cholera?",
+                "What are common cholera medications?",
+                "Is there medicine to treat cholera?"
+            ],
+            "responses": [
+                "Oral rehydration solutions (ORS) are crucial for treating cholera.",
+                "Antibiotics like doxycycline and azithromycin are used to reduce the severity and duration of the illness.",
+                "Zinc supplements can help reduce the severity of diarrhea in children.",
+                "Intravenous fluids may be needed in severe cases.",
+                "Vaccines are available to help prevent cholera in high-risk areas."
+            ]
+        },
+        {
+            "tag": "cholera_symptoms",
+            "patterns": [
+                "What are the symptoms of cholera?",
+                "Can you list cholera symptoms?",
+                "How can I tell if I have cholera?",
+                "What signs indicate cholera?",
+                "What should I look for to identify cholera?"
+            ],
+            "responses": [
+                "Symptoms of cholera include severe diarrhea and vomiting.",
+                "Rapid loss of body fluids can lead to dehydration and shock.",
+                "Other symptoms include muscle cramps and sunken eyes.",
+                "Dry mouth, thirst, and reduced urine output are signs of dehydration.",
+                "Severe cases can lead to kidney failure and death if not treated."
+            ]
+        },
+        {
+            "tag": "cholera_treatment",
+            "patterns": [
+                "What are the treatments for cholera?",
+                "How is cholera treated?",
+                "What are the immediate treatments for cholera?",
+                "What should be done if someone has cholera?",
+                "What are the emergency treatments for cholera?"
+            ],
+            "responses": [
+                "Treatment focuses on rehydration with oral rehydration solutions (ORS).",
+                "Antibiotics can reduce the severity and duration of the illness.",
+                "In severe cases, intravenous fluids are needed to prevent dehydration.",
+                "Zinc supplements are recommended for children with cholera.",
+                "Vaccination can help prevent cholera in high-risk areas."
+            ]
+        },
+        {
+            "tag": "cholera_remedies",
+            "patterns": [
+                "Are there home remedies for cholera?",
+                "What are some natural remedies for cholera?",
+                "Can lifestyle changes help with cholera?",
+                "What home care is needed for cholera?",
+                "How can diet and fluids help with cholera?"
+            ],
+            "responses": [
+                "Home remedies for cholera include drinking plenty of fluids to stay hydrated.",
+                "Oral rehydration solutions (ORS) are essential for preventing dehydration.",
+                "A balanced diet with easily digestible foods can help recovery.",
+                "Maintaining good hygiene and sanitation can prevent the spread of cholera.",
+                "Boiling water before drinking and avoiding raw foods can reduce the risk of infection."
+            ]
+        },
+        {
+            "tag": "leprosy_information",
+            "patterns": [
+                "What is leprosy?",
+                "Can you explain what leprosy is?",
+                "Define leprosy.",
+                "Tell me about leprosy.",
+                "What happens during leprosy?"
+            ],
+            "responses": [
+                "Leprosy is a chronic infectious disease caused by Mycobacterium leprae.",
+                "It primarily affects the skin, nerves, and mucous membranes.",
+                "Symptoms include skin lesions, numbness, and muscle weakness.",
+                "Leprosy can cause severe disfigurement and disability if not treated.",
+                "It spreads through prolonged close contact with an infected person."
+            ]
+        },
+        {
+            "tag": "leprosy_medicine",
+            "patterns": [
+                "Are there any medicines for leprosy?",
+                "What medications are used to treat leprosy?",
+                "Can you list drugs for leprosy?",
+                "What are common leprosy medications?",
+                "Is there medicine to treat leprosy?"
+            ],
+            "responses": [
+                "Multidrug therapy (MDT) is the standard treatment for leprosy.",
+                "MDT includes a combination of rifampicin, dapsone, and clofazimine.",
+                "Treatment typically lasts 6-12 months, depending on the severity.",
+                "Early diagnosis and treatment can prevent complications.",
+                "Regular follow-up is important to monitor the response to treatment."
+            ]
+        },
+        {
+            "tag": "leprosy_symptoms",
+            "patterns": [
+                "What are the symptoms of leprosy?",
+                "Can you list leprosy symptoms?",
+                "How can I tell if I have leprosy?",
+                "What signs indicate leprosy?",
+                "What should I look for to identify leprosy?"
+            ],
+            "responses": [
+                "Symptoms of leprosy include skin lesions that may be lighter or darker than normal skin.",
+                "Numbness and loss of sensation in affected areas are common.",
+                "Muscle weakness and paralysis can occur in severe cases.",
+                "Thickening of the skin and nerve damage may also be present.",
+                "It's important to seek medical attention if you suspect leprosy."
+            ]
+        },
+        {
+            "tag": "leprosy_treatment",
+            "patterns": [
+                "What are the treatments for leprosy?",
+                "How is leprosy treated?",
+                "What are the immediate treatments for leprosy?",
+                "What should be done if someone has leprosy?",
+                "What are the emergency treatments for leprosy?"
+            ],
+            "responses": [
+                "Treatment involves multidrug therapy (MDT) with antibiotics.",
+                "Early diagnosis and treatment are crucial to prevent complications.",
+                "Regular monitoring is important to assess the response to treatment.",
+                "In some cases, surgery may be needed to correct deformities.",
+                "Patients should also receive physical and occupational therapy to manage symptoms."
+            ]
+        },
+        {
+            "tag": "leprosy_remedies",
+            "patterns": [
+                "Are there home remedies for leprosy?",
+                "What are some natural remedies for leprosy?",
+                "Can lifestyle changes help with leprosy?",
+                "What home care is needed for leprosy?",
+                "How can diet and exercise help with leprosy?"
+            ],
+            "responses": [
+                "Home remedies for leprosy include maintaining good hygiene and skin care.",
+                "Eating a balanced diet rich in vitamins and minerals can support recovery.",
+                "Regular physical therapy can help manage muscle weakness and paralysis.",
+                "Avoiding close contact with untreated individuals can prevent the spread of leprosy.",
+                "Maintaining a positive outlook and managing stress are important for overall health."
+            ]
+        },
+        {
+            "tag": "covid19_information",
+            "patterns": [
+                "What is COVID-19?",
+                "Can you explain what COVID-19 is?",
+                "Define COVID-19.",
+                "Tell me about COVID-19.",
+                "What happens during COVID-19?"
+            ],
+            "responses": [
+                "COVID-19 is a respiratory illness caused by the coronavirus SARS-CoV-2.",
+                "It spreads primarily through respiratory droplets from an infected person.",
+                "Symptoms include fever, cough, shortness of breath, and loss of taste or smell.",
+                "COVID-19 can lead to severe respiratory illness and complications in some cases.",
+                "It's important to follow public health guidelines to prevent the spread of the virus."
+            ]
+        },
+        {
+            "tag": "covid19_medicine",
+            "patterns": [
+                "Are there any medicines for COVID-19?",
+                "What medications are used to treat COVID-19?",
+                "Can you list drugs for COVID-19?",
+                "What are common COVID-19 medications?",
+                "Is there medicine to treat COVID-19?"
+            ],
+            "responses": [
+                "Antiviral medications like remdesivir are used to treat severe cases of COVID-19.",
+                "Dexamethasone, a corticosteroid, is used to reduce inflammation in severe cases.",
+                "Monoclonal antibodies can help reduce the severity of the illness.",
+                "Vaccination is the most effective way to prevent COVID-19.",
+                "Supportive care, including oxygen therapy, may be needed for severe cases."
+            ]
+        },
+        {
+            "tag": "covid19_symptoms",
+            "patterns": [
+                "What are the symptoms of COVID-19?",
+                "Can you list COVID-19 symptoms?",
+                "How can I tell if I have COVID-19?",
+                "What signs indicate COVID-19?",
+                "What should I look for to identify COVID-19?"
+            ],
+            "responses": [
+                "Symptoms of COVID-19 include fever, cough, and shortness of breath.",
+                "Other symptoms may include fatigue, muscle aches, and loss of taste or smell.",
+                "Some people experience sore throat, headache, and congestion.",
+                "In severe cases, difficulty breathing and chest pain may occur.",
+                "It's important to get tested if you experience symptoms of COVID-19."
+            ]
+        },
+        {
+            "tag": "covid19_treatment",
+            "patterns": [
+                "What are the treatments for COVID-19?",
+                "How is COVID-19 treated?",
+                "What are the immediate treatments for COVID-19?",
+                "What should be done if someone has COVID-19?",
+                "What are the emergency treatments for COVID-19?"
+            ],
+            "responses": [
+                "Treatment for mild cases includes rest, hydration, and over-the-counter medications for symptom relief.",
+                "Severe cases may require hospitalization and supportive care, including oxygen therapy.",
+                "Antiviral medications and corticosteroids are used in severe cases.",
+                "Monoclonal antibody treatments can help reduce the severity of the illness.",
+                "Vaccination is the best way to prevent severe illness and complications from COVID-19."
+            ]
+        },
+        {
+            "tag": "covid19_remedies",
+            "patterns": [
+                "Are there home remedies for COVID-19?",
+                "What are some natural remedies for COVID-19?",
+                "Can lifestyle changes help with COVID-19?",
+                "What home care is needed for COVID-19?",
+                "How can diet and exercise help with COVID-19?"
+            ],
+            "responses": [
+                "Home remedies for COVID-19 include staying hydrated and getting plenty of rest.",
+                "Eating a balanced diet with immune-boosting foods can support recovery.",
+                "Regular physical activity, as tolerated, can help maintain overall health.",
+                "Practicing good hygiene and wearing masks can prevent the spread of the virus.",
+                "Managing stress and maintaining a positive outlook are important for recovery."
+            ]
+        },
+        {
+            "tag": "malaria_information",
+            "patterns": [
+                "What are the symptoms of malaria?",
+                "How is malaria diagnosed?",
+                "What are the common treatments for malaria?",
+                "What are the preventive measures for malaria?",
+                "What are the home remedies for malaria?"
+            ],
+            "responses": [
+                "Malaria symptoms include fever, chills, headache, nausea, and vomiting.",
+                "Malaria is diagnosed through blood tests to detect the presence of the parasite.",
+                "Common treatments for malaria include antimalarial medications like chloroquine and artemisinin-based combination therapies (ACTs).",
+                "Preventive measures for malaria include using mosquito nets, insect repellents, and eliminating mosquito breeding sites.",
+                "Home remedies for malaria include drinking herbal teas, resting, and maintaining hydration."
+            ]
+        },
+        {
+            "tag": "malaria_medicine",
+            "patterns": [
+                "What are the best medicines for treating malaria?",
+                "How effective are antimalarial medications?",
+                "Are there any side effects of malaria medication?",
+                "What is the role of ACTs in malaria treatment?",
+                "Is chloroquine still used for malaria?"
+            ],
+            "responses": [
+                "Antimalarial medications like ACTs and chloroquine are effective against malaria, but effectiveness can vary based on drug resistance.",
+                "Common side effects of malaria medication may include nausea, dizziness, and headache.",
+                "ACTs (Artemisinin-based Combination Therapies) are recommended as first-line treatments for uncomplicated malaria.",
+                "Chloroquine was once widely used for malaria treatment but is now less effective due to widespread resistance.",
+                "Consult a healthcare provider for the best antimalarial medication based on your location and the type of malaria."
+            ]
+        },
+        {
+            "tag": "malaria_treatment",
+            "patterns": [
+                "How is severe malaria treated?",
+                "What is the treatment for malaria in children?",
+                "Can malaria be treated at home?",
+                "What should be done if malaria treatment fails?",
+                "What are the stages of malaria treatment?"
+            ],
+            "responses": [
+                "Severe malaria requires hospitalization and intravenous antimalarial medications.",
+                "Treatment for malaria in children may involve specialized medications and close monitoring.",
+                "Mild cases of malaria can sometimes be managed at home with oral medications and rest.",
+                "If malaria treatment fails, it may indicate drug resistance or incorrect diagnosis, requiring reassessment by a healthcare provider.",
+                "Stages of malaria treatment include diagnosis, medication administration, monitoring for complications, and follow-up care."
+            ]
+        },
+        {
+            "tag": "malaria_symptoms",
+            "patterns": [
+                "What are the early symptoms of malaria?",
+                "How long do malaria symptoms last?",
+                "What are the neurological symptoms of severe malaria?",
+                "Can malaria cause anemia?",
+                "What are the gastrointestinal symptoms of malaria?"
+            ],
+            "responses": [
+                "Early symptoms of malaria include fever, chills, headache, and muscle aches.",
+                "Without treatment, malaria symptoms can last for weeks or months, depending on the type of malaria parasite.",
+                "Neurological symptoms of severe malaria may include confusion, seizures, and coma.",
+                "Malaria can cause anemia due to destruction of red blood cells by the malaria parasite.",
+                "Gastrointestinal symptoms of malaria may include nausea, vomiting, and diarrhea."
+            ]
+        },
+        {
+            "tag": "malaria_remedies",
+            "patterns": [
+                "What are natural remedies for malaria?",
+                "Can herbal teas help with malaria?",
+                "How effective are home remedies for malaria?",
+                "What foods should be eaten during malaria recovery?",
+                "Are there any traditional remedies for malaria?"
+            ],
+            "responses": [
+                "Natural remedies for malaria include herbal teas like ginger tea and maintaining hydration with fluids.",
+                "Herbal teas can provide some relief from symptoms but should not replace medical treatment for malaria.",
+                "Home remedies can complement medical treatment but should not be relied upon solely for treating malaria.",
+                "Foods rich in vitamins and minerals, such as fruits, vegetables, and lean proteins, are beneficial during malaria recovery.",
+                "Traditional remedies for malaria vary by culture and may include specific herbs or practices believed to alleviate symptoms."
+            ]
+        },
+        {
+            "tag": "dengue_fever_information",
+            "patterns": [
+                "What are the symptoms of dengue fever?",
+                "How is dengue fever diagnosed?",
+                "What are the common treatments for dengue fever?",
+                "What are the preventive measures for dengue fever?",
+                "What are the home remedies for dengue fever?"
+            ],
+            "responses": [
+                "Dengue fever symptoms include high fever, severe headache, pain behind the eyes, joint and muscle pain, and rash.",
+                "Dengue fever is diagnosed through blood tests to detect the virus or antibodies.",
+                "Treatment for dengue fever focuses on supportive care, such as rest, hydration, and pain relief. Severe cases may require hospitalization.",
+                "Preventive measures for dengue fever include eliminating mosquito breeding sites, using insect repellents, and wearing protective clothing.",
+                "Home remedies for dengue fever include consuming fluids like oral rehydration solutions, resting, and using pain relievers under medical guidance."
+            ]
+        },
+        {
+            "tag": "dengue_fever_medicine",
+            "patterns": [
+                "What are the best medicines for treating dengue fever?",
+                "How effective are pain relievers in managing dengue fever?",
+                "Are there any antiviral medications for dengue fever?",
+                "What is the role of fluids in dengue fever treatment?",
+                "Can herbal remedies help with dengue fever?"
+            ],
+            "responses": [
+                "Pain relievers like acetaminophen (paracetamol) can help manage fever and pain in dengue fever patients under medical supervision.",
+                "There are no specific antiviral medications for treating dengue fever; treatment focuses on supportive care.",
+                "Fluids play a critical role in dengue fever treatment to prevent dehydration and maintain electrolyte balance.",
+                "Herbal remedies may provide some relief from symptoms but should not replace medical treatment for dengue fever.",
+                "Consult a healthcare provider for the best pain relievers and treatments based on your symptoms and medical history."
+            ]
+        },
+        {
+            "tag": "dengue_fever_treatment",
+            "patterns": [
+                "How is severe dengue fever treated?",
+                "What is the treatment for dengue fever in children?",
+                "Can dengue fever be treated with antibiotics?",
+                "What should be done if dengue fever complications arise?",
+                "What are the stages of dengue fever treatment?"
+            ],
+            "responses": [
+                "Severe dengue fever may require hospitalization for intensive medical care, including intravenous fluids and monitoring.",
+                "Treatment for dengue fever in children may involve adjustments in fluid management and close monitoring for complications.",
+                "Dengue fever is caused by a virus and does not respond to antibiotics, which are used to treat bacterial infections.",
+                "If dengue fever complications arise, seek medical attention promptly for evaluation and appropriate treatment.",
+                "Stages of dengue fever treatment include monitoring for symptoms, fluid management, supportive care, and recovery."
+            ]
+        },
+        {
+            "tag": "dengue_fever_symptoms",
+            "patterns": [
+                "What are the early symptoms of dengue fever?",
+                "How long do dengue fever symptoms last?",
+                "What are the respiratory symptoms of severe dengue fever?",
+                "Can dengue fever cause bleeding?",
+                "What are the gastrointestinal symptoms of dengue fever?"
+            ],
+            "responses": [
+                "Early symptoms of dengue fever include sudden onset of high fever, severe headache, pain behind the eyes, joint and muscle pain, and rash.",
+                "Dengue fever symptoms can last for about 2-7 days, followed by a recovery phase or progression to severe dengue.",
+                "Respiratory symptoms of severe dengue fever may include difficulty breathing and respiratory distress.",
+                "Dengue fever can cause bleeding manifestations such as nosebleeds, gum bleeding, and bruising due to low platelet count.",
+                "Gastrointestinal symptoms of dengue fever may include nausea, vomiting, abdominal pain, and diarrhea."
+            ]
+        },
+        {
+            "tag": "dengue_fever_remedies",
+            "patterns": [
+                "What are natural remedies for dengue fever?",
+                "Can herbal teas help with dengue fever?",
+                "How effective are home remedies for dengue fever?",
+                "What foods should be eaten during dengue fever recovery?",
+                "Are there any traditional remedies for dengue fever?"
+            ],
+            "responses": [
+                "Natural remedies for dengue fever include consuming fluids like oral rehydration solutions, resting, and maintaining hydration.",
+                "Herbal teas like ginger tea may provide relief from symptoms but should not replace medical treatment for dengue fever.",
+                "Home remedies can complement medical treatment for dengue fever, focusing on hydration and symptom relief.",
+                "Foods rich in vitamins, minerals, and proteins are beneficial during dengue fever recovery to support immune function and overall health.",
+                "Traditional remedies for dengue fever vary by culture and may include specific herbs or practices believed to alleviate symptoms."
+            ]
+        },
+        {
+            "tag": "chikungunya_information",
+            "patterns": [
+                "What are the symptoms of chikungunya?",
+                "How is chikungunya diagnosed?",
+                "What are the common treatments for chikungunya?",
+                "What are the preventive measures for chikungunya?",
+                "What are the home remedies for chikungunya?"
+            ],
+            "responses": [
+                "Chikungunya symptoms include sudden onset of fever, joint pain (mainly in the hands and feet), headache, muscle pain, and rash.",
+                "Chikungunya is diagnosed through blood tests to detect the virus or antibodies.",
+                "Treatment for chikungunya focuses on relieving symptoms with pain relievers, rest, and fluids. Severe cases may require medical intervention.",
+                "Preventive measures for chikungunya include eliminating mosquito breeding sites, using mosquito nets, and applying insect repellents.",
+                "Home remedies for chikungunya include resting, applying cold packs to reduce joint pain, and staying hydrated with water and oral rehydration solutions."
+            ]
+        },
+        {
+            "tag": "chikungunya_medicine",
+            "patterns": [
+                "What are the best medicines for treating chikungunya?",
+                "How effective are pain relievers in managing chikungunya?",
+                "Are there any antiviral medications for chikungunya?",
+                "What is the role of pain relievers in chikungunya treatment?",
+                "Can herbal remedies help with chikungunya?"
+            ],
+            "responses": [
+                "Pain relievers like acetaminophen (paracetamol) can help manage pain and fever in chikungunya patients under medical supervision.",
+                "There are no specific antiviral medications for treating chikungunya; treatment focuses on symptom relief and supportive care.",
+                "Consult a healthcare provider for the best pain relievers and treatments based on your symptoms and medical history.",
+                "Pain relievers play a crucial role in chikungunya treatment by reducing joint pain, fever, and discomfort.",
+                "Herbal remedies may provide some relief from symptoms but should not replace medical treatment for chikungunya."
+            ]
+        },
+        {
+            "tag": "chikungunya_treatment",
+            "patterns": [
+                "How is severe chikungunya treated?",
+                "What is the treatment for chikungunya in children?",
+                "Can chikungunya be treated with antibiotics?",
+                "What should be done if chikungunya symptoms worsen?",
+                "What are the stages of chikungunya treatment?"
+            ],
+            "responses": [
+                "Severe chikungunya may require hospitalization for intensive medical care, pain management, and monitoring for complications.",
+                "Treatment for chikungunya in children focuses on symptom management, rest, and hydration under medical supervision.",
+                "Chikungunya is caused by a virus and does not respond to antibiotics, which are used to treat bacterial infections.",
+                "If chikungunya symptoms worsen or complications arise, seek medical attention promptly for evaluation and appropriate treatment.",
+                "Stages of chikungunya treatment include symptom management, monitoring for complications such as neurological symptoms, and recovery."
+            ]
+        },
+        {
+            "tag": "chikungunya_symptoms",
+            "patterns": [
+                "What are the early symptoms of chikungunya?",
+                "How long do chikungunya symptoms last?",
+                "What are the neurological symptoms of severe chikungunya?",
+                "Can chikungunya cause joint damage?",
+                "What are the gastrointestinal symptoms of chikungunya?"
+            ],
+            "responses": [
+                "Early symptoms of chikungunya include sudden onset of fever, joint pain (mainly in the hands and feet), headache, and muscle pain.",
+                "Chikungunya symptoms typically last for about 2-12 days, followed by a recovery phase with lingering joint pain in some cases.",
+                "Neurological symptoms of severe chikungunya may include confusion, seizures, and encephalitis (brain inflammation).",
+                "Chikungunya can cause joint damage and persistent joint pain, known as post-chikungunya arthritis, in some individuals.",
+                "Gastrointestinal symptoms of chikungunya may include nausea, vomiting, abdominal pain, and diarrhea."
+            ]
+        },
+        {
+            "tag": "chikungunya_remedies",
+            "patterns": [
+                "What are natural remedies for chikungunya?",
+                "Can herbal teas help with chikungunya?",
+                "How effective are home remedies for chikungunya?",
+                "What foods should be eaten during chikungunya recovery?",
+                "Are there any traditional remedies for chikungunya?"
+            ],
+            "responses": [
+                "Natural remedies for chikungunya include resting, applying cold packs to reduce joint pain, and staying hydrated with water and oral rehydration solutions.",
+                "Herbal teas like ginger tea may provide relief from symptoms but should not replace medical treatment for chikungunya.",
+                "Home remedies can complement medical treatment for chikungunya by focusing on symptom relief, hydration, and rest.",
+                "Foods rich in vitamins, minerals, and proteins are beneficial during chikungunya recovery to support immune function and overall health.",
+                "Traditional remedies for chikungunya vary by culture and may include specific herbs or practices believed to alleviate symptoms."
+            ]
+        },
+        {
+            "tag": "tuberculosis_information",
+            "patterns": [
+                "What are the symptoms of tuberculosis (TB)?",
+                "How is tuberculosis diagnosed?",
+                "What are the common treatments for tuberculosis?",
+                "What are the preventive measures for tuberculosis?",
+                "What are the home remedies for tuberculosis?"
+            ],
+            "responses": [
+                "Symptoms of tuberculosis (TB) include persistent cough, fever, night sweats, weight loss, and fatigue.",
+                "Tuberculosis is diagnosed through tests such as sputum microscopy, culture, and molecular tests to detect the bacteria (Mycobacterium tuberculosis).",
+                "Treatment for tuberculosis involves a combination of antibiotics (usually for 6-9 months), such as isoniazid, rifampicin, pyrazinamide, and ethambutol.",
+                "Preventive measures for tuberculosis include screening high-risk individuals, treating latent TB infection, and implementing infection control measures.",
+                "Home remedies for tuberculosis include maintaining good nutrition, rest, and following medical treatment plans."
+            ]
+        },
+        {
+            "tag": "tuberculosis_medicine",
+            "patterns": [
+                "What are the best antibiotics for treating tuberculosis?",
+                "How effective are TB medications in curing the disease?",
+                "Are there any side effects of tuberculosis medication?",
+                "What is the role of isoniazid in tuberculosis treatment?",
+                "Can multidrug-resistant TB be treated with standard antibiotics?"
+            ],
+            "responses": [
+                "Antibiotics such as isoniazid, rifampicin, pyrazinamide, and ethambutol are commonly used to treat tuberculosis, depending on drug sensitivity.",
+                "TB medications are effective in curing the disease when taken as prescribed for the full duration of treatment.",
+                "Side effects of TB medication may include nausea, vomiting, liver toxicity, and peripheral neuropathy.",
+                "Isoniazid is a key antibiotic used in tuberculosis treatment to kill actively growing bacteria and prevent latent TB infection from becoming active.",
+                "Multidrug-resistant TB requires treatment with second-line antibiotics, which are less effective and often have more side effects than standard TB medications."
+            ]
+        },
+        {
+            "tag": "tuberculosis_treatment",
+            "patterns": [
+                "How is drug-resistant tuberculosis (DR-TB) treated?",
+                "What is the treatment regimen for latent TB infection?",
+                "Can TB treatment be shortened?",
+                "What should be done if TB treatment fails?",
+                "What are the stages of TB treatment?"
+            ],
+            "responses": [
+                "Drug-resistant tuberculosis (DR-TB) is treated with second-line antibiotics for an extended duration, often up to 20-24 months.",
+                "Latent TB infection is treated with antibiotics such as isoniazid for 6-9 months to prevent active TB disease.",
+                "TB treatment cannot be shortened; completing the full course of antibiotics is crucial to prevent drug resistance and cure the infection.",
+                "If TB treatment fails, it may indicate drug resistance or incorrect diagnosis, requiring reassessment by a healthcare provider.",
+                "Stages of TB treatment include initial phase with multiple antibiotics, continuation phase with fewer antibiotics, monitoring for side effects, and completion of treatment."
+            ]
+        },
+        {
+            "tag": "tuberculosis_symptoms",
+            "patterns": [
+                "What are the early symptoms of tuberculosis (TB)?",
+                "How long do tuberculosis symptoms last?",
+                "What are the respiratory symptoms of tuberculosis?",
+                "Can tuberculosis cause weight loss?",
+                "What are the neurological symptoms of tuberculosis?"
+            ],
+            "responses": [
+                "Early symptoms of tuberculosis (TB) include persistent cough lasting more than 3 weeks, fever, night sweats, weight loss, and fatigue.",
+                "Without treatment, tuberculosis symptoms can persist for months or years and worsen over time.",
+                "Respiratory symptoms of tuberculosis include coughing up blood (hemoptysis), chest pain, and difficulty breathing.",
+                "Tuberculosis can cause weight loss due to decreased appetite, metabolic changes, and chronic inflammation.",
+                "Neurological symptoms of tuberculosis are rare but may include meningitis (inflammation of the membranes covering the brain and spinal cord) or spinal tuberculosis."
+            ]
+        },
+        {
+            "tag": "tuberculosis_remedies",
+            "patterns": [
+                "What are natural remedies for tuberculosis?",
+                "Can herbal teas help with tuberculosis?",
+                "How effective are home remedies for tuberculosis?",
+                "What foods should be eaten during tuberculosis recovery?",
+                "Are there any traditional remedies for tuberculosis?"
+            ],
+            "responses": [
+                "Natural remedies for tuberculosis include maintaining good nutrition, rest, and following medical treatment plans.",
+                "Herbal teas like ginger tea may provide comfort but should not replace medical treatment for tuberculosis.",
+                "Home remedies can complement medical treatment for tuberculosis by focusing on nutrition, hydration, and overall well-being.",
+                "Foods rich in vitamins, minerals, and proteins are beneficial during tuberculosis recovery to support immune function and overall health.",
+                "Traditional remedies for tuberculosis vary by culture and may include specific herbs or practices believed to promote healing or alleviate symptoms."
+            ]
+        },
+        {
+            "tag": "hiv_aids_information",
+            "patterns": [
+                "What are the symptoms of HIV/AIDS?",
+                "How is HIV/AIDS diagnosed?",
+                "What are the common treatments for HIV/AIDS?",
+                "What are the preventive measures for HIV/AIDS?",
+                "What are the home remedies for HIV/AIDS?"
+            ],
+            "responses": [
+                "Symptoms of HIV/AIDS vary depending on the stage and include fever, swollen lymph nodes, fatigue, weight loss, and opportunistic infections.",
+                "HIV/AIDS is diagnosed through blood tests to detect HIV antibodies or the virus itself.",
+                "Treatment for HIV/AIDS involves antiretroviral therapy (ART) to suppress the virus, reduce viral load, and maintain immune function.",
+                "Preventive measures for HIV/AIDS include practicing safe sex, using sterile needles, HIV testing, and pre-exposure prophylaxis (PrEP) for high-risk individuals.",
+                "Home remedies for HIV/AIDS focus on maintaining overall health with a balanced diet, exercise, stress management, and adherence to ART."
+            ]
+        },
+        {
+            "tag": "hiv_aids_medicine",
+            "patterns": [
+                "What are the best medications for treating HIV/AIDS?",
+                "How effective is antiretroviral therapy (ART) in managing HIV/AIDS?",
+                "Are there any side effects of HIV/AIDS medications?",
+                "What is the role of ART in HIV/AIDS treatment?",
+                "Can HIV/AIDS medications cure the disease?"
+            ],
+            "responses": [
+                "Antiretroviral therapy (ART) is the primary treatment for HIV/AIDS, consisting of combinations of medications to suppress the virus and maintain immune function.",
+                "ART is highly effective in managing HIV/AIDS by reducing viral load, preventing disease progression, and improving quality of life.",
+                "Side effects of HIV/AIDS medications may include nausea, diarrhea, fatigue, and long-term complications such as metabolic changes.",
+                "ART plays a crucial role in HIV/AIDS treatment by controlling viral replication, reducing HIV-related complications, and prolonging life expectancy.",
+                "While ART can effectively manage HIV/AIDS, it does not cure the disease; lifelong adherence to ART is necessary to maintain viral suppression and immune health."
+            ]
+        },
+        {
+            "tag": "hiv_aids_treatment",
+            "patterns": [
+                "How is HIV/AIDS managed over time?",
+                "What is the treatment regimen for HIV/AIDS?",
+                "Can HIV/AIDS be treated with vaccines?",
+                "What should be done if HIV/AIDS treatment fails?",
+                "What are the stages of HIV/AIDS treatment?"
+            ],
+            "responses": [
+                "HIV/AIDS management involves regular monitoring, adherence to antiretroviral therapy (ART), and addressing co-infections or complications.",
+                "The treatment regimen for HIV/AIDS includes starting ART promptly after diagnosis, regular medical visits, laboratory monitoring, and lifestyle management.",
+                "HIV vaccines are still under research and not currently available for routine use; prevention through safe practices and testing remains essential.",
+                "If HIV/AIDS treatment fails, healthcare providers may recommend adjusting medications, addressing drug resistance, or exploring new treatment options.",
+                "Stages of HIV/AIDS treatment include initial diagnosis, starting ART, monitoring viral load and CD4 count, managing side effects, and long-term care."
+            ]
+        },
+        {
+            "tag": "hiv_aids_symptoms",
+            "patterns": [
+                "What are the early symptoms of HIV/AIDS?",
+                "How long do HIV/AIDS symptoms last?",
+                "What are the neurological symptoms of advanced HIV/AIDS?",
+                "Can HIV/AIDS cause skin problems?",
+                "What are the gastrointestinal symptoms of HIV/AIDS?"
+            ],
+            "responses": [
+                "Early symptoms of HIV/AIDS may include flu-like illness (fever, swollen lymph nodes, sore throat), which can resolve within a few weeks.",
+                "Without treatment, HIV/AIDS symptoms may progress to more severe manifestations over years, depending on the individual's immune response.",
+                "Neurological symptoms of advanced HIV/AIDS may include cognitive changes, neuropathy (nerve damage), and opportunistic infections affecting the brain.",
+                "HIV/AIDS can cause skin problems such as rashes, lesions, and infections due to compromised immune function.",
+                "Gastrointestinal symptoms of HIV/AIDS may include diarrhea, weight loss, abdominal pain, and difficulty swallowing."
+            ]
+        },
+        {
+            "tag": "hiv_aids_remedies",
+            "patterns": [
+                "What are natural remedies for managing HIV/AIDS?",
+                "Can herbal supplements help with HIV/AIDS?",
+                "How effective are home remedies for HIV/AIDS?",
+                "What foods should be eaten to support HIV/AIDS management?",
+                "Are there any traditional remedies for HIV/AIDS?"
+            ],
+            "responses": [
+                "Natural remedies for managing HIV/AIDS focus on overall health maintenance, including a balanced diet, regular exercise, stress reduction, and rest.",
+                "Herbal supplements may be used as complementary therapy but should not replace antiretroviral therapy (ART) for managing HIV/AIDS.",
+                "Home remedies can support HIV/AIDS management by promoting immune health, managing symptoms, and supporting overall well-being.",
+                "A balanced diet rich in vitamins, minerals, antioxidants, and proteins supports immune function and overall health for individuals living with HIV/AIDS.",
+                "Traditional remedies for HIV/AIDS vary by culture and may include specific herbs or practices believed to boost immunity or alleviate symptoms."
+            ]
+        },
+        {
+            "tag": "pneumonia_information",
+            "patterns": [
+                "What is pneumonia?",
+                "Tell me about pneumonia.",
+                "Can you explain what pneumonia is?",
+                "How do people get pneumonia?",
+                "What are the causes of pneumonia?"
+            ],
+            "responses": [
+                "Pneumonia is an infection that inflames the air sacs in one or both lungs.",
+                "These air sacs may fill with fluid or pus, causing cough, fever, chills, and difficulty breathing.",
+                "Pneumonia can be caused by various organisms, including bacteria, viruses, and fungi.",
+                "It's important to seek medical attention if you suspect you have pneumonia, as it can range from mild to life-threatening.",
+                "Treatment for pneumonia depends on the underlying cause and severity of the infection."
+            ]
+        },
+        {
+            "tag": "pneumonia_medicine",
+            "patterns": [
+                "Are there any medicines for pneumonia?",
+                "What medications are used to treat pneumonia?",
+                "Can you list drugs for pneumonia?",
+                "What are common pneumonia medications?",
+                "What antibiotics treat pneumonia?"
+            ],
+            "responses": [
+                "Antibiotics are commonly prescribed for bacterial pneumonia.",
+                "Antiviral medications may be used for pneumonia caused by certain viruses.",
+                "Over-the-counter pain relievers and fever reducers can help alleviate symptoms.",
+                "In severe cases, oxygen therapy or hospitalization may be necessary.",
+                "It's crucial to complete the full course of antibiotics as prescribed, even if you start feeling better."
+            ]
+        },
+        {
+            "tag": "pneumonia_symptoms",
+            "patterns": [
+                "What are the symptoms of pneumonia?",
+                "Can you list pneumonia symptoms?",
+                "How can I tell if I have pneumonia?",
+                "What signs indicate pneumonia?",
+                "What should I look for to identify pneumonia?"
+            ],
+            "responses": [
+                "Symptoms of pneumonia often include cough, fever, chills, and difficulty breathing.",
+                "Other common symptoms are chest pain, fatigue, loss of appetite, and sweating.",
+                "In older adults, symptoms may be less obvious or include confusion and delirium.",
+                "If you have concerns about your symptoms, it's best to consult a doctor for proper diagnosis and treatment.",
+                "Early diagnosis and treatment of pneumonia can prevent complications and improve outcomes."
+            ]
+        },
+        {
+            "tag": "pneumonia_treatment",
+            "patterns": [
+                "What are the treatments for pneumonia?",
+                "How is pneumonia treated?",
+                "What are the common treatments for pneumonia?",
+                "What should be done if someone has pneumonia?",
+                "What are the effective treatments for pneumonia?"
+            ],
+            "responses": [
+                "Treatment for pneumonia depends on the cause, severity, and overall health of the individual.",
+                "Bacterial pneumonia is typically treated with antibiotics.",
+                "Viral pneumonia may require antiviral medications or supportive care to relieve symptoms.",
+                "Rest, fluids, and over-the-counter medications can help manage symptoms.",
+                "In severe cases, hospitalization and oxygen therapy may be needed."
+            ]
+        },
+        {
+            "tag": "pneumonia_remedies",
+            "patterns": [
+                "Are there home remedies for pneumonia recovery?",
+                "What are some natural remedies for pneumonia?",
+                "Can lifestyle changes help with pneumonia recovery?",
+                "What home care is needed after pneumonia?",
+                "How can I support pneumonia recovery at home?"
+            ],
+            "responses": [
+                "Getting plenty of rest is crucial for pneumonia recovery.",
+                "Staying hydrated by drinking plenty of fluids is essential.",
+                "Eating a healthy diet can support your immune system.",
+                "Avoiding smoking and secondhand smoke can improve lung health.",
+                "Over-the-counter medications can help manage symptoms like fever, cough, and congestion."
+            ]
+        },
+        {
+            "tag": "acute_respiratory_infections_information",
+            "patterns": [
+                "What are acute respiratory infections?",
+                "Tell me about acute respiratory infections.",
+                "Can you explain what acute respiratory infections are?",
+                "How do people get acute respiratory infections?",
+                "What are the causes of acute respiratory infections?"
+            ],
+            "responses": [
+                "Acute respiratory infections (ARIs) are infections that affect the respiratory system, including the nose, throat, airways, and lungs.",
+                "They are usually caused by viruses, but bacteria can also be responsible.",
+                "Common ARIs include the common cold, influenza (flu), bronchitis, and pneumonia.",
+                "ARIs are highly contagious and often spread through respiratory droplets released when an infected person coughs or sneezes.",
+                "Most ARIs are mild and resolve on their own, but some can be severe, especially in young children, older adults, and people with underlying health conditions."
+            ]
+        },
+        {
+            "tag": "acute_respiratory_infections_medicine",
+            "patterns": [
+                "Are there any medicines for acute respiratory infections?",
+                "What medications are used to treat acute respiratory infections?",
+                "Can you list drugs for acute respiratory infections?",
+                "What are common acute respiratory infections medications?",
+                "What antibiotics treat acute respiratory infections?"
+            ],
+            "responses": [
+                "Treatment for ARIs depends on the underlying cause and severity of the infection.",
+                "Antiviral medications may be used for certain viral infections, such as influenza.",
+                "Antibiotics are not effective against viral infections and are only used for bacterial ARIs.",
+                "Over-the-counter medications can help relieve symptoms like fever, cough, and congestion.",
+                "Rest, fluids, and avoiding close contact with others can also aid in recovery."
+            ]
+        },
+        {
+            "tag": "acute_respiratory_infections_symptoms",
+            "patterns": [
+                "What are the symptoms of acute respiratory infections?",
+                "Can you list acute respiratory infections symptoms?",
+                "How can I tell if I have an acute respiratory infection?",
+                "What signs indicate an acute respiratory infection?",
+                "What should I look for to identify an acute respiratory infection?"
+            ],
+            "responses": [
+                "Symptoms of ARIs vary depending on the specific infection but often include cough, sore throat, runny nose, and congestion.",
+                "Other symptoms may include fever, chills, body aches, headache, and fatigue.",
+                "More severe symptoms like difficulty breathing, chest pain, or confusion require immediate medical attention.",
+                "If you have concerns about your symptoms or are experiencing difficulty breathing, seek medical advice promptly.",
+                "Prompt diagnosis and treatment can help manage symptoms and prevent complications."
+            ]
+        },
+        {
+            "tag": "acute_respiratory_infections_treatment",
+            "patterns": [
+                "What are the treatments for acute respiratory infections?",
+                "How are acute respiratory infections treated?",
+                "What are the common treatments for acute respiratory infections?",
+                "What should be done if someone has an acute respiratory infection?",
+                "What are the effective treatments for acute respiratory infections?"
+            ],
+            "responses": [
+                "Treatment for ARIs focuses on relieving symptoms and supporting the body's immune response.",
+                "Rest, fluids, and over-the-counter medications can help alleviate symptoms like fever, cough, and congestion.",
+                "Antiviral medications may be prescribed for certain viral infections, while antibiotics are used for bacterial ARIs.",
+                "Prevention strategies include frequent handwashing, covering coughs and sneezes, and avoiding close contact with sick individuals.",
+                "Vaccinations, such as the flu vaccine, can also help prevent some ARIs."
+            ]
+        },
+        {
+            "tag": "acute_respiratory_infections_remedies",
+            "patterns": [
+                "Are there home remedies for acute respiratory infections?",
+                "What are some natural remedies for acute respiratory infections?",
+                "Can lifestyle changes help with acute respiratory infection recovery?",
+                "What home care is needed after an acute respiratory infection?",
+                "How can I support acute respiratory infection recovery at home?"
+            ],
+            "responses": [
+                "Resting in a well-ventilated room can help with recovery.",
+                "Drinking plenty of fluids, such as water, broth, and herbal teas, can help thin mucus and soothe the throat.",
+                "Gargling with warm salt water can relieve a sore throat.",
+                "Using a humidifier can add moisture to the air and ease congestion.",
+                "Consuming a balanced diet rich in fruits, vegetables, and whole grains can support the immune system."
+            ]
+        },
+        {
+            "tag": "hypertension_information",
+            "patterns": [
+                "What is hypertension?",
+                "Tell me about hypertension.",
+                "Can you explain what hypertension is?",
+                "How do people get hypertension?",
+                "What are the causes of hypertension?"
+            ],
+            "responses": [
+                "Hypertension, also known as high blood pressure, is a condition in which the force of blood against your artery walls is consistently too high.",
+                "It's often called the 'silent killer' because it may not cause noticeable symptoms for years, even as it damages your heart, blood vessels, and other organs.",
+                "Uncontrolled hypertension can lead to serious health complications, including heart attack, stroke, kidney disease, and vision loss.",
+                "The exact causes of hypertension are not fully understood, but contributing factors include genetics, lifestyle choices, and certain medical conditions.",
+                "Making healthy lifestyle changes, such as following a balanced diet, exercising regularly, and managing stress, can help prevent and manage hypertension."
+            ]
+        },
+        {
+            "tag": "hypertension_medicine",
+            "patterns": [
+                "Are there any medicines for hypertension?",
+                "What medications are used to treat hypertension?",
+                "Can you list drugs for hypertension?",
+                "What are common hypertension medications?",
+                "What medications lower blood pressure?"
+            ],
+            "responses": [
+                "Medications to treat hypertension are often recommended along with lifestyle changes.",
+                "Common types of blood pressure-lowering medications include diuretics, ACE inhibitors, ARBs, beta blockers, and calcium channel blockers.",
+                "The specific medication or combination of medications prescribed will depend on factors such as your blood pressure readings, overall health, and other medical conditions.",
+                "It's essential to take blood pressure medications exactly as prescribed by your doctor and not to discontinue them without their guidance.",
+                "Regular monitoring of your blood pressure and regular doctor visits are crucial for managing hypertension effectively."
+            ]
+        },
+        {
+            "tag": "hypertension_symptoms",
+            "patterns": [
+                "What are the symptoms of hypertension?",
+                "Can you list hypertension symptoms?",
+                "How can I tell if I have hypertension?",
+                "What signs indicate hypertension?",
+                "What should I look for to identify hypertension?"
+            ],
+            "responses": [
+                "Hypertension often has no symptoms, even when blood pressure readings are dangerously high.",
+                "That's why it's crucial to get your blood pressure checked regularly, especially if you have risk factors for hypertension.",
+                "In some cases, severe hypertension may cause symptoms like headache, dizziness, shortness of breath, nosebleeds, or blurred vision.",
+                "However, these symptoms are nonspecific and can be caused by a variety of other conditions.",
+                "The best way to know if you have hypertension is to have your blood pressure measured by a healthcare professional."
+            ]
+        },
+        {
+            "tag": "hypertension_treatment",
+            "patterns": [
+                "What are the treatments for hypertension?",
+                "How is hypertension treated?",
+                "What are the common treatments for hypertension?",
+                "What should be done if someone has hypertension?",
+                "What are the effective treatments for hypertension?"
+            ],
+            "responses": [
+                "Treating hypertension usually involves a combination of lifestyle modifications and medication.",
+                "Lifestyle changes include following a heart-healthy diet, engaging in regular physical activity, maintaining a healthy weight, limiting alcohol consumption, quitting smoking, and managing stress.",
+                "Medications, such as diuretics, ACE inhibitors, ARBs, beta blockers, and calcium channel blockers, may be prescribed to lower blood pressure.",
+                "The goal of hypertension treatment is to lower blood pressure to a healthy range and reduce the risk of complications.",
+                "Working closely with your healthcare provider is essential for managing hypertension and reducing your risk of heart attack, stroke, and other health problems."
+            ]
+        },
+        {
+            "tag": "hypertension_remedies",
+            "patterns": [
+                "Are there home remedies for managing hypertension?",
+                "What are some natural ways to lower blood pressure?",
+                "Can lifestyle changes help manage hypertension?",
+                "What home care tips are helpful for hypertension?",
+                "How can I support hypertension management at home?"
+            ],
+            "responses": [
+                "Following the DASH diet, which emphasizes fruits, vegetables, and low-fat dairy products, can help lower blood pressure.",
+                "Reducing sodium intake by limiting processed foods, fast food, and restaurant meals is essential.",
+                "Engaging in regular physical activity, such as brisk walking, jogging, cycling, or swimming, for at least 30 minutes most days of the week can make a significant difference.",
+                "Managing stress through techniques like deep breathing, yoga, meditation, or spending time in nature can positively impact blood pressure.",
+                "Monitoring your blood pressure at home using a reliable home blood pressure monitor can help you stay informed and track your progress."
+            ]
+        },
+        {
+            "tag": "diabetes_information",
+            "patterns": [
+                "What is diabetes?",
+                "Tell me about diabetes.",
+                "Can you explain what diabetes is?",
+                "How do people get diabetes?",
+                "What are the causes of diabetes?"
+            ],
+            "responses": [
+                "Diabetes is a chronic disease that affects how your body regulates blood sugar, also known as glucose.",
+                "Glucose is a vital source of energy for your body's cells, and it comes from the food you eat.",
+                "Insulin, a hormone made by your pancreas, allows glucose to enter your cells to be used for energy.",
+                "In diabetes, your body either doesn't make enough insulin, or it can't effectively use the insulin it produces.",
+                "This leads to high blood sugar levels, which can damage your organs and tissues over time."
+            ]
+        },
+        {
+            "tag": "diabetes_medicine",
+            "patterns": [
+                "Are there any medicines for diabetes?",
+                "What medications are used to treat diabetes?",
+                "Can you list drugs for diabetes?",
+                "What are common diabetes medications?",
+                "What medications help manage blood sugar levels?"
+            ],
+            "responses": [
+                "Medications for diabetes depend on the type of diabetes you have and other factors.",
+                "Type 1 diabetes always requires insulin therapy, either through injections or an insulin pump.",
+                "Type 2 diabetes may be managed with lifestyle changes, oral medications, or insulin, depending on blood sugar control.",
+                "Common oral medications include metformin, sulfonylureas, meglitinides, thiazolidinediones, DPP-4 inhibitors, GLP-1 receptor agonists, and SGLT2 inhibitors.",
+                "It's important to work closely with your healthcare provider to determine the appropriate medication regimen for your needs."
+            ]
+        },
+        {
+            "tag": "diabetes_symptoms",
+            "patterns": [
+                "What are the symptoms of diabetes?",
+                "Can you list diabetes symptoms?",
+                "How can I tell if I have diabetes?",
+                "What signs indicate diabetes?",
+                "What should I look for to identify diabetes?"
+            ],
+            "responses": [
+                "Common symptoms of diabetes include frequent urination, excessive thirst, unexplained weight loss, increased hunger, fatigue, blurred vision, slow-healing sores, and frequent infections.",
+                "However, some people with diabetes, especially type 2 diabetes, may not experience symptoms in the early stages.",
+                "High blood sugar levels can damage nerves and blood vessels, leading to complications such as heart disease, stroke, kidney disease, nerve damage, and eye problems.",
+                "If you experience any symptoms of diabetes or have risk factors such as obesity, family history, or a sedentary lifestyle, it's essential to consult your doctor for testing.",
+                "Early detection and management of diabetes are crucial for preventing or delaying complications."
+            ]
+        },
+        {
+            "tag": "diabetes_treatment",
+            "patterns": [
+                "What are the treatments for diabetes?",
+                "How is diabetes treated?",
+                "What are the common treatments for diabetes?",
+                "What should be done if someone has diabetes?",
+                "What are the effective treatments for diabetes?"
+            ],
+            "responses": [
+                "Diabetes management involves lifestyle changes, medication, and regular monitoring.",
+                "Healthy lifestyle choices include a balanced diet, regular physical activity, weight management, and avoiding smoking.",
+                "Medications, such as insulin or oral medications, help control blood sugar levels.",
+                "Regular blood sugar monitoring using a glucometer is essential to track glucose control.",
+                "Working closely with a healthcare team, including a doctor, nurse, registered dietitian, and diabetes educator, can help individuals manage diabetes effectively."
+            ]
+        },
+        {
+            "tag": "diabetes_remedies",
+            "patterns": [
+                "Are there home remedies for managing diabetes?",
+                "What are some natural ways to help control blood sugar?",
+                "Can lifestyle changes help manage diabetes?",
+                "What home care tips are helpful for diabetes?",
+                "How can I support diabetes management at home?"
+            ],
+            "responses": [
+                "Eating a balanced diet rich in fiber, whole grains, fruits, vegetables, and lean protein is crucial.",
+                "Regular physical activity, such as brisk walking, swimming, or cycling, helps improve insulin sensitivity.",
+                "Maintaining a healthy weight through diet and exercise is essential.",
+                "Managing stress through techniques like deep breathing, meditation, or spending time outdoors can positively impact blood sugar levels.",
+                "Monitoring your blood sugar regularly and keeping track of your readings can help you make informed decisions about your diabetes management."
+            ]
+        },
+        {
+            "tag": "ischemic_heart_disease_information",
+            "patterns": [
+                "What is ischemic heart disease?",
+                "Tell me about ischemic heart disease.",
+                "Can you explain what ischemic heart disease is?",
+                "How do people get ischemic heart disease?",
+                "What are the causes of ischemic heart disease?"
+            ],
+            "responses": [
+                "Ischemic heart disease, also known as coronary heart disease, is a condition in which plaque builds up inside the coronary arteries.",
+                "These arteries supply oxygen-rich blood to your heart muscle.",
+                "Plaque is made up of cholesterol, fatty substances, cellular waste products, calcium, and fibrin.",
+                "Over time, plaque hardens and narrows the coronary arteries, reducing blood flow to the heart.",
+                "This reduced blood flow can cause chest pain (angina), shortness of breath, and other symptoms."
+            ]
+        },
+        {
+            "tag": "ischemic_heart_disease_medicine",
+            "patterns": [
+                "Are there any medicines for ischemic heart disease?",
+                "What medications are used to treat ischemic heart disease?",
+                "Can you list drugs for ischemic heart disease?",
+                "What are common ischemic heart disease medications?",
+                "What medications help improve blood flow to the heart?"
+            ],
+            "responses": [
+                "Medications for ischemic heart disease aim to relieve symptoms, improve blood flow to the heart, and prevent complications.",
+                "Nitrates, such as nitroglycerin, are used to widen blood vessels and relieve chest pain.",
+                "Beta blockers help slow the heart rate and lower blood pressure.",
+                "Calcium channel blockers relax and widen blood vessels.",
+                "Other medications include aspirin, statins to lower cholesterol, and ACE inhibitors to lower blood pressure."
+            ]
+        },
+        {
+            "tag": "ischemic_heart_disease_symptoms",
+            "patterns": [
+                "What are the symptoms of ischemic heart disease?",
+                "Can you list ischemic heart disease symptoms?",
+                "How can I tell if I have ischemic heart disease?",
+                "What signs indicate ischemic heart disease?",
+                "What should I look for to identify ischemic heart disease?"
+            ],
+            "responses": [
+                "The most common symptom of ischemic heart disease is angina, or chest pain.",
+                "Angina is often described as a tightness, pressure, or squeezing sensation in the chest.",
+                "It may also feel like indigestion or heartburn.",
+                "Other symptoms can include shortness of breath, fatigue, nausea, sweating, and pain that radiates to the jaw, neck, or arm.",
+                "If you experience any of these symptoms, especially during physical activity or emotional stress, seek medical attention immediately."
+            ]
+        },
+        {
+            "tag": "ischemic_heart_disease_treatment",
+            "patterns": [
+                "What are the treatments for ischemic heart disease?",
+                "How is ischemic heart disease treated?",
+                "What are the common treatments for ischemic heart disease?",
+                "What should be done if someone has ischemic heart disease?",
+                "What are the effective treatments for ischemic heart disease?"
+            ],
+            "responses": [
+                "Treatment for ischemic heart disease focuses on relieving symptoms, slowing or stopping plaque buildup, and lowering the risk of complications.",
+                "Treatment options include lifestyle changes, medications, and surgical procedures.",
+                "Lifestyle changes include quitting smoking, eating a heart-healthy diet, exercising regularly, managing stress, and maintaining a healthy weight.",
+                "Medications can help relieve symptoms, lower blood pressure and cholesterol, and prevent blood clots.",
+                "Surgical procedures, such as angioplasty or coronary artery bypass grafting (CABG), may be necessary in more severe cases."
+            ]
+        },
+        {
+            "tag": "ischemic_heart_disease_remedies",
+            "patterns": [
+                "Are there home remedies for managing ischemic heart disease?",
+                "What are some natural ways to improve heart health?",
+                "Can lifestyle changes help manage ischemic heart disease?",
+                "What home care tips are helpful for ischemic heart disease?",
+                "How can I support ischemic heart disease management at home?"
+            ],
+            "responses": [
+                "Eating a heart-healthy diet rich in fruits, vegetables, whole grains, and lean protein is crucial.",
+                "Regular exercise, such as brisk walking, swimming, or cycling, improves cardiovascular health.",
+                "Quitting smoking is one of the most important things you can do for your heart health.",
+                "Managing stress through techniques like deep breathing, yoga, or spending time in nature can benefit heart health.",
+                "Maintaining a healthy weight and getting regular checkups are essential for managing ischemic heart disease."
+            ]
+        },
+        {
+            "tag": "measles_information",
+            "patterns": [
+                "What is measles?",
+                "Can you explain what measles is?",
+                "Define measles.",
+                "Tell me about measles.",
+                "What happens in measles?"
+            ],
+            "responses": [
+                "Measles is a highly contagious viral infection caused by the measles virus.",
+                "It primarily affects children but can occur at any age.",
+                "Measles is characterized by a red, blotchy skin rash, fever, and cold-like symptoms.",
+                "The disease spreads through respiratory droplets when an infected person coughs or sneezes.",
+                "Measles can lead to serious complications, especially in young children and immunocompromised individuals."
+            ]
+        },
+        {
+            "tag": "measles_medicine",
+            "patterns": [
+                "Are there any medicines for measles?",
+                "What medications are used to treat measles?",
+                "Can you list drugs for measles?",
+                "What are common measles medications?",
+                "Is there medicine to manage measles?"
+            ],
+            "responses": [
+                "There is no specific antiviral treatment for measles.",
+                "Supportive care includes antipyretics to reduce fever and pain relievers to manage symptoms.",
+                "Vitamin A supplements are recommended for children with measles to reduce the risk of complications.",
+                "Antibiotics may be prescribed if a bacterial infection develops as a complication of measles.",
+                "It's essential to stay hydrated and get plenty of rest during a measles infection."
+            ]
+        },
+        {
+            "tag": "measles_symptoms",
+            "patterns": [
+                "What are the symptoms of measles?",
+                "Can you list measles symptoms?",
+                "How can I tell if someone has measles?",
+                "What signs indicate measles?",
+                "What should I look for to identify measles?"
+            ],
+            "responses": [
+                "Common symptoms of measles include high fever, cough, runny nose, and red, watery eyes.",
+                "A characteristic red, blotchy rash usually appears 3-5 days after the initial symptoms.",
+                "The rash typically starts on the face and spreads to the rest of the body.",
+                "Other symptoms can include sore throat, Koplik spots (tiny white spots) inside the mouth, and general malaise.",
+                "The incubation period for measles is usually about 10-12 days from exposure to the onset of symptoms."
+            ]
+        },
+        {
+            "tag": "measles_treatment",
+            "patterns": [
+                "What are the treatments for measles?",
+                "How is measles treated?",
+                "What are the immediate treatments for measles?",
+                "What should be done if someone has measles?",
+                "What are the long-term treatments for measles?"
+            ],
+            "responses": [
+                "Treatment for measles focuses on relieving symptoms and preventing complications.",
+                "Ensure the patient stays hydrated and gets plenty of rest.",
+                "Administer antipyretics to reduce fever and pain relievers to ease discomfort.",
+                "Vitamin A supplements are recommended for children to help prevent severe complications.",
+                "Monitor for signs of complications, such as pneumonia or encephalitis, and seek medical attention if they occur."
+            ]
+        },
+        {
+            "tag": "measles_remedies",
+            "patterns": [
+                "Are there home remedies for measles?",
+                "What are some natural remedies for measles?",
+                "Can lifestyle changes help with measles?",
+                "What home care is needed for measles?",
+                "How can diet and rest help with measles?"
+            ],
+            "responses": [
+                "Home remedies can't cure measles, but supportive care is essential.",
+                "Maintain a nutritious diet to support the immune system during recovery.",
+                "Ensure the patient stays hydrated by drinking plenty of fluids.",
+                "Use a cool-mist humidifier to help ease respiratory symptoms and soothe a sore throat.",
+                "Isolate the infected person to prevent the spread of measles to others."
+            ]
+        },
+        {
+            "tag": "swine_flu_information",
+            "patterns": [
+                "What is swine flu?",
+                "Can you explain what swine flu is?",
+                "Define swine flu.",
+                "Tell me about swine flu.",
+                "What happens in swine flu?"
+            ],
+            "responses": [
+                "Swine flu, also known as H1N1 influenza, is a respiratory disease caused by the H1N1 influenza A virus.",
+                "It is called swine flu because the virus was originally thought to be transmitted from pigs to humans.",
+                "Swine flu spreads from person to person through respiratory droplets when an infected person coughs or sneezes.",
+                "Symptoms of swine flu are similar to seasonal flu and can range from mild to severe.",
+                "In severe cases, swine flu can lead to pneumonia, respiratory failure, or even death."
+            ]
+        },
+        {
+            "tag": "swine_flu_medicine",
+            "patterns": [
+                "Are there any medicines for swine flu?",
+                "What medications are used to treat swine flu?",
+                "Can you list drugs for swine flu?",
+                "What are common swine flu medications?",
+                "Is there medicine to manage swine flu?"
+            ],
+            "responses": [
+                "Antiviral drugs such as oseltamivir (Tamiflu) and zanamivir (Relenza) are used to treat swine flu.",
+                "These medications can reduce the severity and duration of symptoms if started within 48 hours of symptom onset.",
+                "Antibiotics may be prescribed if a secondary bacterial infection develops.",
+                "Over-the-counter medications can be used to relieve symptoms such as fever, headache, and body aches.",
+                "It's important to rest, stay hydrated, and avoid spreading the virus to others."
+            ]
+        },
+        {
+            "tag": "swine_flu_symptoms",
+            "patterns": [
+                "What are the symptoms of swine flu?",
+                "Can you list swine flu symptoms?",
+                "How can I tell if someone has swine flu?",
+                "What signs indicate swine flu?",
+                "What should I look for to identify swine flu?"
+            ],
+            "responses": [
+                "Common symptoms of swine flu include fever, cough, sore throat, body aches, and fatigue.",
+                "Some people may also experience diarrhea and vomiting.",
+                "Symptoms can appear suddenly and be similar to those of seasonal flu.",
+                "In severe cases, swine flu can lead to pneumonia and respiratory failure.",
+                "People at higher risk of complications include pregnant women, young children, older adults, and individuals with underlying health conditions."
+            ]
+        },
+        {
+            "tag": "swine_flu_treatment",
+            "patterns": [
+                "What are the treatments for swine flu?",
+                "How is swine flu treated?",
+                "What are the immediate treatments for swine flu?",
+                "What should be done if someone has swine flu?",
+                "What are the long-term treatments for swine flu?"
+            ],
+            "responses": [
+                "Treatment for swine flu focuses on relieving symptoms and preventing complications.",
+                "Antiviral medications such as oseltamivir are effective if started early in the course of illness.",
+                "Rest, hydration, and over-the-counter medications for fever and pain relief are recommended.",
+                "If symptoms worsen or if you are in a high-risk group, seek medical attention promptly.",
+                "Annual influenza vaccination is recommended to prevent swine flu and other seasonal influenza strains."
+            ]
+        },
+        {
+            "tag": "swine_flu_remedies",
+            "patterns": [
+                "Are there home remedies for swine flu?",
+                "What are some natural remedies for swine flu?",
+                "Can lifestyle changes help with swine flu?",
+                "What home care is needed for swine flu?",
+                "How can diet and rest help with swine flu?"
+            ],
+            "responses": [
+                "Home remedies can help manage symptoms of swine flu but are not a substitute for medical treatment.",
+                "Drink plenty of fluids such as water, herbal teas, and electrolyte-rich beverages to stay hydrated.",
+                "Rest is essential for recovery; avoid strenuous activities and get adequate sleep.",
+                "Use a humidifier or take steam inhalations to soothe respiratory symptoms.",
+                "Eat a nutritious diet with plenty of fruits, vegetables, and lean proteins to support immune function."
+            ]
+        },
+        {
+            "tag": "jaundice_information",
+            "patterns": [
+                "What is jaundice?",
+                "Can you explain what jaundice is?",
+                "Define jaundice.",
+                "Tell me about jaundice.",
+                "What happens during jaundice?"
+            ],
+            "responses": [
+                "Jaundice is a condition where the skin and whites of the eyes turn yellow due to high levels of bilirubin in the blood.",
+                "It occurs when the liver is unable to process bilirubin effectively or when there is an obstruction in the bile ducts.",
+                "Symptoms may include yellowing of the skin, dark urine, and abdominal pain.",
+                "Jaundice can be caused by hepatitis, liver cirrhosis, or gallstones.",
+                "Treatment depends on the underlying cause and may include medications or surgery."
+            ]
+        },
+        {
+            "tag": "jaundice_symptoms",
+            "patterns": [
+                "What are the symptoms of jaundice?",
+                "Can you list jaundice symptoms?",
+                "How can I tell if I have jaundice?",
+                "What signs indicate jaundice?",
+                "What should I look for to identify jaundice?"
+            ],
+            "responses": [
+                "Symptoms of jaundice include yellowing of the skin and whites of the eyes.",
+                "Dark urine and pale-colored stools are common signs.",
+                "Itchy skin, abdominal pain, and nausea may also occur.",
+                "Jaundice can indicate liver or bile duct problems that need medical attention.",
+                "Seek prompt medical advice if you suspect jaundice."
+            ]
+        },
+        {
+            "tag": "jaundice_treatment",
+            "patterns": [
+                "What are the treatments for jaundice?",
+                "How is jaundice treated?",
+                "What are the immediate treatments for jaundice?",
+                "What should be done if someone has jaundice?",
+                "What are the emergency treatments for jaundice?"
+            ],
+            "responses": [
+                "Treatment for jaundice depends on the underlying cause.",
+                "In some cases, addressing the underlying condition, such as hepatitis or gallstones, is necessary.",
+                "If jaundice is severe, hospitalization and supportive care may be required.",
+                "Doctors may recommend medications, dietary changes, or procedures to alleviate symptoms.",
+                "In emergency situations, interventions to manage complications like liver failure may be necessary."
+            ]
+        },
+        {
+            "tag": "jaundice_medicine",
+            "patterns": [
+                "How can jaundice be prevented?",
+                "Are there ways to avoid jaundice?",
+                "What can I do to prevent jaundice?",
+                "Is there a vaccine for jaundice?",
+                "What lifestyle changes can help prevent jaundice?"
+            ],
+            "responses": [
+                "Preventing jaundice involves maintaining a healthy liver through a balanced diet and regular exercise.",
+                "Avoiding excessive alcohol consumption and practicing safe sex can reduce the risk of hepatitis, a common cause of jaundice.",
+                "Vaccination against hepatitis A and B can prevent these infections and reduce the risk of jaundice.",
+                "Regular screenings and early treatment of liver conditions can help prevent complications that lead to jaundice.",
+                "Consulting with a healthcare provider for personalized advice on liver health and preventive measures is recommended."
+            ]
+        },
+        {
+            "tag": "jaundice_remedies",
+            "patterns": [
+                "Are there home remedies for jaundice?",
+                "What are some natural remedies for jaundice?",
+                "Can lifestyle changes help with jaundice?",
+                "What home care is needed for jaundice?",
+                "How can diet and lifestyle aid in jaundice recovery?"
+            ],
+            "responses": [
+                "Home remedies for jaundice include consuming foods like leafy greens, fruits, and lean proteins.",
+                "Drinking plenty of water and avoiding processed foods can support liver function.",
+                "Herbal remedies like milk thistle or turmeric may have hepatoprotective properties.",
+                "Rest and stress management are important for overall recovery.",
+                "Avoiding alcohol and maintaining a healthy weight can aid in jaundice recovery."
+            ]
+        },
+        {
+            "tag": "kidney_stones_information",
+            "patterns": [
+                "What are kidney stones?",
+                "Can you explain what kidney stones are?",
+                "Define kidney stones.",
+                "Tell me about kidney stones.",
+                "What causes kidney stones?"
+            ],
+            "responses": [
+                "Kidney stones are hard deposits of minerals and salts that form inside the kidneys.",
+                "They can vary in size and may cause severe pain as they pass through the urinary tract.",
+                "Common types include calcium stones, uric acid stones, and struvite stones.",
+                "Factors like dehydration, diet high in protein or salt, and certain medical conditions can increase the risk.",
+                "Treatment depends on the size and location of the stone and may include medications or procedures to remove them."
+            ]
+        },
+        {
+            "tag": "kidney_stones_symptoms",
+            "patterns": [
+                "What are the symptoms of kidney stones?",
+                "Can you list kidney stone symptoms?",
+                "How can I tell if I have kidney stones?",
+                "What signs indicate kidney stones?",
+                "What should I look for to identify kidney stones?"
+            ],
+            "responses": [
+                "Symptoms of kidney stones include severe pain in the side and back, below the ribs.",
+                "Pain may radiate to the lower abdomen and groin.",
+                "Other symptoms include pain during urination, pink or red urine, and foul-smelling urine.",
+                "Nausea, vomiting, and fever may occur if there is an infection or blockage.",
+                "Seek medical attention if you experience symptoms of kidney stones."
+            ]
+        },
+        {
+            "tag": "kidney_stones_treatment",
+            "patterns": [
+                "What are the treatments for kidney stones?",
+                "How are kidney stones treated?",
+                "What are the immediate treatments for kidney stones?",
+                "What should be done if someone has kidney stones?",
+                "What are the emergency treatments for kidney stones?"
+            ],
+            "responses": [
+                "Treatment depends on the size and location of the kidney stone.",
+                "Small stones may pass on their own with increased fluid intake and pain management.",
+                "Larger stones may require procedures such as lithotripsy to break them into smaller pieces.",
+                "Surgery may be needed for very large or complex stones.",
+                "Medications can help manage pain and prevent further stone formation."
+            ]
+        },
+        {
+            "tag": "kidney_stones_remedies",
+            "patterns": [
+                "How can kidney stones be prevented?",
+                "Are there ways to avoid kidney stones?",
+                "What can I do to prevent kidney stones?",
+                "Is there a diet for preventing kidney stones?",
+                "What lifestyle changes can help prevent kidney stones?"
+            ],
+            "responses": [
+                "Preventing kidney stones involves drinking plenty of water to stay hydrated.",
+                "Following a balanced diet low in sodium and oxalate-rich foods can reduce the risk.",
+                "Limiting animal protein, including meat and fish, can also help prevent stone formation.",
+                "Consulting with a healthcare provider for personalized advice on kidney stone prevention is recommended.",
+                "Medications may be prescribed to prevent stone formation in individuals with recurrent kidney stones."
+            ]
+        },
+        {
+            "tag": "fever_information",
+            "patterns": [
+                "What are the symptoms of fever?",
+                "How is fever diagnosed?",
+                "What are common treatments for fever?",
+                "Are there any home remedies for fever?",
+                "When should I see a doctor for fever?"
+            ],
+            "responses": [
+                "Symptoms of fever include high body temperature, chills, sweating, headache, and muscle aches.",
+                "Fever is diagnosed by measuring body temperature with a thermometer.",
+                "Common treatments for fever include rest, hydration, and over-the-counter fever reducers like acetaminophen or ibuprofen.",
+                "Home remedies for fever include drinking plenty of fluids, resting, applying cold compresses, and taking lukewarm baths.",
+                "You should see a doctor if your fever persists for more than three days, is very high (above 103°F or 39.4°C), or is accompanied by severe symptoms."
+            ]
+        },
+        {
+            "tag": "fever_medicine",
+            "patterns": [
+                "What medicines are effective for reducing fever?",
+                "How do fever reducers like acetaminophen work?",
+                "Are there any side effects of fever medications?",
+                "Can children take the same fever medicines as adults?",
+                "What is the recommended dosage for fever medications?"
+            ],
+            "responses": [
+                "Effective fever reducers include acetaminophen (paracetamol) and nonsteroidal anti-inflammatory drugs (NSAIDs) like ibuprofen.",
+                "Acetaminophen works by inhibiting prostaglandin synthesis in the brain, reducing fever and pain signals.",
+                "Side effects of fever medications may include liver damage (with acetaminophen), stomach irritation (with NSAIDs), and allergic reactions.",
+                "Children should take age-appropriate fever medications under pediatrician guidance to avoid complications.",
+                "Always follow the recommended dosage instructions provided by healthcare providers or on medication labels to avoid overdose or underdose."
+            ]
+        },
+        {
+            "tag": "fever_treatment",
+            "patterns": [
+                "How should fever be treated at home?",
+                "What foods or drinks are good for fever recovery?",
+                "Is bed rest important during fever?",
+                "Can fever lead to complications?",
+                "What are the stages of fever recovery?"
+            ],
+            "responses": [
+                "Home treatment for fever includes rest, hydration with water or electrolyte solutions, and using fever reducers as needed.",
+                "Foods like soups, broths, fruits rich in vitamin C, and herbal teas can support recovery from fever.",
+                "Bed rest helps conserve energy and supports the body's immune response during fever.",
+                "Fever itself is usually a symptom of an underlying infection and can sometimes lead to complications like dehydration or seizures, especially in young children.",
+                "Stages of fever recovery typically involve fever reduction, resolution of symptoms, and gradual return to normal activities."
+            ]
+        },
+        {
+            "tag": "fever_symptoms",
+            "patterns": [
+                "What are the early symptoms of fever?",
+                "How long does fever typically last?",
+                "Can fever cause headache and body aches?",
+                "What are the respiratory symptoms of fever?",
+                "Is fever always a sign of infection?"
+            ],
+            "responses": [
+                "Early symptoms of fever include feeling hot, chills, sweating, headache, muscle aches, and fatigue.",
+                "The duration of fever can vary depending on the underlying cause but typically resolves within a few days.",
+                "Fever can cause headache, body aches, and general discomfort.",
+                "Respiratory symptoms associated with fever may include cough, sore throat, and nasal congestion, depending on the cause.",
+                "Fever is often a sign that the body is fighting an infection, but it can also result from other conditions such as inflammatory disorders."
+            ]
+        },
+        {
+            "tag": "fever_remedies",
+            "patterns": [
+                "What are natural remedies for fever?",
+                "Can herbal teas help reduce fever?",
+                "How effective are home remedies like cold compresses?",
+                "What foods should be eaten during fever recovery?",
+                "Are there any traditional remedies for fever?"
+            ],
+            "responses": [
+                "Natural remedies for fever include resting, staying hydrated, using cold compresses, and taking lukewarm baths to reduce body temperature.",
+                "Herbal teas with ingredients like ginger or chamomile may provide comfort but should not replace medical treatment for fever.",
+                "Home remedies like cold compresses can help reduce fever temporarily by cooling the body's surface.",
+                "Foods rich in nutrients, electrolytes, and antioxidants support immune function and overall health during fever recovery.",
+                "Traditional remedies for fever vary by culture and may include specific herbs, spices, or practices believed to promote healing or reduce fever symptoms."
+            ]
+        },
+        {
+            "tag": "cold_information",
+            "patterns": [
+                "What are the symptoms of a cold?",
+                "How long does a cold typically last?",
+                "What are common treatments for a cold?",
+                "Are there any home remedies for a cold?",
+                "When should I see a doctor for a cold?"
+            ],
+            "responses": [
+                "Symptoms of a cold include runny or stuffy nose, sneezing, sore throat, cough, congestion, and mild fatigue.",
+                "A cold typically lasts for about 7-10 days, with symptoms gradually improving over time.",
+                "Common treatments for a cold include over-the-counter medications for symptom relief, rest, hydration, and staying home to avoid spreading the virus.",
+                "Home remedies for a cold include drinking plenty of fluids, resting, using saline nasal sprays, and gargling with warm salt water.",
+                "You should see a doctor for a cold if symptoms persist or worsen after 10 days, or if you experience severe symptoms like high fever, persistent cough, or difficulty breathing."
+            ]
+        },
+        {
+            "tag": "cold_medicine",
+            "patterns": [
+                "What medicines are effective for treating cold symptoms?",
+                "How do decongestants work in cold medications?",
+                "Are there any side effects of cold medications?",
+                "Can children take the same cold medicines as adults?",
+                "What is the recommended dosage for cold medications?"
+            ],
+            "responses": [
+                "Effective cold medicines include decongestants, antihistamines, cough suppressants, and pain relievers like acetaminophen or ibuprofen.",
+                "Decongestants work by shrinking swollen blood vessels in the nasal passages, reducing congestion and improving breathing.",
+                "Side effects of cold medications may include drowsiness, dizziness, dry mouth, and interactions with other medications.",
+                "Children should take age-appropriate cold medications under pediatrician guidance to avoid adverse effects or overdosing.",
+                "Always follow the recommended dosage instructions provided by healthcare providers or on medication labels to ensure safety and effectiveness."
+            ]
+        },
+        {
+            "tag": "cold_treatment",
+            "patterns": [
+                "How should a cold be treated at home?",
+                "What foods or drinks are good for cold recovery?",
+                "Is bed rest important during a cold?",
+                "Can a cold lead to complications?",
+                "What are the stages of cold recovery?"
+            ],
+            "responses": [
+                "Home treatment for a cold includes rest, hydration with water or warm fluids, using over-the-counter medications for symptom relief, and practicing good hygiene to prevent spreading the virus.",
+                "Foods like chicken soup, hot tea with honey, fruits rich in vitamin C, and warm broths can support recovery from a cold.",
+                "Bed rest helps conserve energy and supports the body's immune response during a cold.",
+                "A cold can sometimes lead to complications such as sinus infections, ear infections, or worsening of underlying respiratory conditions.",
+                "Stages of cold recovery typically involve symptom relief, gradual improvement in congestion and cough, and returning to normal activities as symptoms subside."
+            ]
+        },
+        {
+            "tag": "cold_symptoms",
+            "patterns": [
+                "What are the early symptoms of a cold?",
+                "How long do cold symptoms typically last?",
+                "Can a cold cause fever?",
+                "What are the respiratory symptoms of a cold?",
+                "Is a sore throat common with a cold?"
+            ],
+            "responses": [
+                "Early symptoms of a cold include a scratchy or sore throat, runny or stuffy nose, sneezing, coughing, and mild fatigue.",
+                "Cold symptoms usually peak within the first 3-5 days and gradually improve over the course of 7-10 days.",
+                "A mild fever can sometimes accompany a cold, especially in children, but it is usually low-grade.",
+                "Respiratory symptoms of a cold include nasal congestion, sinus pressure, post-nasal drip, and cough.",
+                "A sore throat is common with a cold, often as an early symptom due to irritation and inflammation of the throat tissues."
+            ]
+        },
+        {
+            "tag": "cold_remedies",
+            "patterns": [
+                "What are natural remedies for a cold?",
+                "Can herbal teas help with a cold?",
+                "How effective are home remedies like steam inhalation?",
+                "What foods should be eaten during cold recovery?",
+                "Are there any traditional remedies for a cold?"
+            ],
+            "responses": [
+                "Natural remedies for a cold include resting, staying hydrated, using saline nasal sprays, and consuming foods and drinks rich in vitamins and antioxidants.",
+                "Herbal teas with ingredients like ginger, peppermint, or chamomile may provide comfort and help relieve cold symptoms.",
+                "Home remedies like steam inhalation with essential oils or menthol can help clear nasal passages and ease congestion during a cold.",
+                "Foods like garlic, citrus fruits, honey, and hot broths support immune function and overall health during cold recovery.",
+                "Traditional remedies for a cold vary by culture and may include specific herbs, spices, or practices believed to promote healing or alleviate symptoms."
+            ]
+        },
+        {
+            "tag": "anxiety_disorders_information",
+            "patterns": [
+                "What are the symptoms of anxiety disorders?",
+                "How is anxiety diagnosed?",
+                "What are common treatments for anxiety disorders?",
+                "Are there any natural remedies for anxiety?",
+                "When should I seek professional help for anxiety?"
+            ],
+            "responses": [
+                "Symptoms of anxiety disorders include excessive worry, restlessness, fatigue, difficulty concentrating, irritability, muscle tension, and sleep disturbances.",
+                "Anxiety disorders are diagnosed based on a thorough assessment of symptoms, medical history, and psychological evaluation.",
+                "Common treatments for anxiety disorders include therapy (such as cognitive-behavioral therapy), medications (like antidepressants or anti-anxiety drugs), and lifestyle modifications.",
+                "Natural remedies for anxiety may include relaxation techniques (e.g., deep breathing, meditation), exercise, herbal supplements (e.g., chamomile or valerian root), and dietary changes.",
+                "You should seek professional help for anxiety if your symptoms significantly interfere with daily life, relationships, or work, or if you experience panic attacks or suicidal thoughts."
+            ]
+        },
+        {
+            "tag": "anxiety_medicine",
+            "patterns": [
+                "What medications are prescribed for anxiety disorders?",
+                "How do antidepressants help with anxiety?",
+                "Are there any side effects of anxiety medications?",
+                "Can children take the same anxiety medications as adults?",
+                "What is the role of therapy in treating anxiety disorders?"
+            ],
+            "responses": [
+                "Medications commonly prescribed for anxiety disorders include selective serotonin reuptake inhibitors (SSRIs), serotonin-norepinephrine reuptake inhibitors (SNRIs), benzodiazepines, and beta-blockers.",
+                "Antidepressants help with anxiety by increasing the levels of neurotransmitters like serotonin in the brain, which regulate mood and anxiety.",
+                "Side effects of anxiety medications may include drowsiness, dizziness, nausea, weight gain, or sexual dysfunction.",
+                "Children and adolescents may receive different types or doses of anxiety medications based on their age, weight, and specific symptoms, under pediatrician or psychiatrist supervision.",
+                "Therapy (such as cognitive-behavioral therapy) plays a crucial role in treating anxiety disorders by teaching coping skills, challenging negative thoughts, and promoting relaxation."
+            ]
+        },
+        {
+            "tag": "anxiety_treatment",
+            "patterns": [
+                "How are anxiety disorders treated long-term?",
+                "What is the recommended treatment plan for anxiety?",
+                "Can anxiety disorders be cured?",
+                "What are the benefits of therapy in managing anxiety?",
+                "How does lifestyle modification help with anxiety?"
+            ],
+            "responses": [
+                "Long-term treatment of anxiety disorders often involves a combination of therapy, medications, and lifestyle changes tailored to individual needs and preferences.",
+                "The recommended treatment plan for anxiety may include regular therapy sessions, medication management, stress management techniques, and support from healthcare professionals.",
+                "Anxiety disorders can be effectively managed with treatment, but complete cure may not always be possible; symptom reduction and improved quality of life are achievable goals.",
+                "Therapy helps manage anxiety by teaching relaxation techniques, identifying triggers, challenging negative thoughts, and building resilience.",
+                "Lifestyle modifications such as regular exercise, healthy eating, adequate sleep, and avoiding alcohol and caffeine can support anxiety management and overall well-being."
+            ]
+        },
+        {
+            "tag": "anxiety_symptoms",
+            "patterns": [
+                "What are the early symptoms of anxiety?",
+                "How does anxiety affect sleep?",
+                "Can anxiety cause physical symptoms?",
+                "What are the cognitive symptoms of anxiety?",
+                "Is anxiety always related to stress?"
+            ],
+            "responses": [
+                "Early symptoms of anxiety may include feelings of unease, nervousness, or impending danger, increased heart rate, sweating, trembling, and hyperventilation.",
+                "Anxiety can disrupt sleep patterns, leading to difficulty falling asleep, staying asleep, or experiencing restful sleep.",
+                "Anxiety can cause physical symptoms such as muscle tension, headaches, stomach discomfort, and fatigue.",
+                "Cognitive symptoms of anxiety include excessive worry, racing thoughts, difficulty concentrating, and fear of losing control or going crazy.",
+                "While anxiety is often triggered by stress, it can also arise from other factors such as genetics, brain chemistry, or traumatic experiences."
+            ]
+        },
+        {
+            "tag": "anxiety_remedies",
+            "patterns": [
+                "What are natural remedies for managing anxiety?",
+                "Can herbal supplements help with anxiety?",
+                "How effective are relaxation techniques for anxiety?",
+                "What foods should be eaten to support anxiety management?",
+                "Are there any traditional remedies for anxiety?"
+            ],
+            "responses": [
+                "Natural remedies for managing anxiety include relaxation techniques (e.g., deep breathing, progressive muscle relaxation), mindfulness meditation, yoga, and aromatherapy.",
+                "Herbal supplements such as chamomile, lavender, or valerian root may provide calming effects, but their effectiveness for anxiety varies, and they should be used cautiously.",
+                "Relaxation techniques like deep breathing or mindfulness can help reduce anxiety by promoting relaxation responses and calming the mind.",
+                "A balanced diet rich in whole grains, lean proteins, fruits, vegetables, and omega-3 fatty acids supports brain health and may help regulate mood and anxiety.",
+                "Traditional remedies for anxiety vary by culture and may include specific herbs, teas, or practices believed to promote relaxation, reduce stress, or soothe nerves."
+            ]
+        },
+        {
+            "tag": "obesity_information",
+            "patterns": [
+                "What is obesity?",
+                "Can you explain what obesity is?",
+                "Define obesity.",
+                "Tell me about obesity.",
+                "What causes obesity?"
+            ],
+            "responses": [
+                "Obesity is a medical condition characterized by excess body fat that can have a negative impact on health.",
+                "It is typically measured using body mass index (BMI), with values above 30 indicating obesity.",
+                "Causes of obesity include genetics, lifestyle choices, and environmental factors.",
+                "Obesity increases the risk of various health problems, including heart disease, diabetes, and certain cancers.",
+                "Treatment involves lifestyle changes such as diet modification, increased physical activity, and sometimes medication or surgery."
+            ]
+        },
+        {
+            "tag": "obesity_symptoms",
+            "patterns": [
+                "What are the symptoms of obesity?",
+                "Can you list obesity symptoms?",
+                "How can I tell if I have obesity?",
+                "What signs indicate obesity?",
+                "What should I look for to identify obesity?"
+            ],
+            "responses": [
+                "Symptoms of obesity may include excessive weight gain and difficulty losing weight.",
+                "Increased body fat, especially around the abdomen, is a common sign.",
+                "Obesity can lead to fatigue, difficulty breathing, and joint pain.",
+                "Health problems associated with obesity, such as high blood pressure and sleep apnea, may also manifest.",
+                "Consulting with a healthcare provider for an accurate diagnosis and personalized advice is recommended."
+            ]
+        },
+        {
+            "tag": "obesity_treatment",
+            "patterns": [
+                "What are the treatments for obesity?",
+                "How is obesity treated?",
+                "What are the immediate treatments for obesity?",
+                "What should be done if someone has obesity?",
+                "What are the emergency treatments for obesity?"
+            ],
+            "responses": [
+                "Treatment for obesity focuses on achieving and maintaining a healthy weight.",
+                "This often involves a combination of diet modification, regular physical activity, and behavioral changes.",
+                "In some cases, medications may be prescribed to aid weight loss.",
+                "Bariatric surgery may be considered for individuals with severe obesity or obesity-related health problems.",
+                "Long-term management and support from healthcare professionals are important for successful weight management."
+            ]
+        },
+        {
+            "tag": "obesity_remedies",
+            "patterns": [
+                "How can obesity be prevented?",
+                "Are there ways to avoid obesity?",
+                "What can I do to prevent obesity?",
+                "Is there a diet for preventing obesity?",
+                "What lifestyle changes can help prevent obesity?"
+            ],
+            "responses": [
+                "Preventing obesity involves maintaining a balanced diet and regular physical activity.",
+                "Limiting consumption of high-calorie, low-nutrient foods and sugary beverages can reduce the risk.",
+                "Engaging in regular exercise, such as walking or cycling, can help maintain a healthy weight.",
+                "Avoiding sedentary behaviors and establishing healthy eating habits early in life are key preventive measures.",
+                "Consulting with a healthcare provider for personalized advice on weight management and prevention strategies is recommended."
+            ]
+        },
+        {
+            "tag": "obesity_management",
+            "patterns": [
+                "Are there strategies for managing obesity?",
+                "What are effective ways to manage obesity?",
+                "How can I control obesity?",
+                "What lifestyle changes aid in obesity management?",
+                "Can medications help with obesity management?"
+            ],
+            "responses": [
+                "Managing obesity involves setting realistic goals for weight loss and making sustainable lifestyle changes.",
+                "Following a balanced diet that includes fruits, vegetables, lean proteins, and whole grains is important.",
+                "Regular physical activity, tailored to individual capabilities and preferences, supports weight management.",
+                "Behavioral therapy and support groups can help individuals maintain motivation and address emotional eating.",
+                "In some cases, medications may be prescribed to aid weight loss, under medical supervision."
+            ]
+        },
+        {
+            "tag": "arthritis_information",
+            "patterns": [
+                "What is arthritis?",
+                "Can you explain what arthritis is?",
+                "Define arthritis.",
+                "Tell me about arthritis.",
+                "What happens in arthritis?"
+            ],
+            "responses": [
+                "Arthritis is a term used to describe inflammation of one or more joints, causing pain and stiffness.",
+                "There are many types of arthritis, including osteoarthritis, rheumatoid arthritis, and gout.",
+                "Common symptoms of arthritis include joint pain, stiffness, swelling, and decreased range of motion.",
+                "Arthritis can affect people of all ages, genders, and races, and it is the leading cause of disability in many countries.",
+                "Treatment for arthritis focuses on managing symptoms, reducing inflammation, and improving joint function."
+            ]
+        },
+        {
+            "tag": "arthritis_medicine",
+            "patterns": [
+                "Are there any medicines for arthritis?",
+                "What medications are used to treat arthritis?",
+                "Can you list drugs for arthritis?",
+                "What are common arthritis medications?",
+                "Is there medicine to manage arthritis?"
+            ],
+            "responses": [
+                "Medications for arthritis depend on the type and severity of the condition.",
+                "Pain relievers such as acetaminophen, NSAIDs (ibuprofen, naproxen), and COX-2 inhibitors may be used.",
+                "Disease-modifying antirheumatic drugs (DMARDs) like methotrexate are used for inflammatory types of arthritis.",
+                "Biologic response modifiers target specific parts of the immune system involved in arthritis.",
+                "Corticosteroids may be injected directly into joints to reduce inflammation and pain."
+            ]
+        },
+        {
+            "tag": "arthritis_symptoms",
+            "patterns": [
+                "What are the symptoms of arthritis?",
+                "Can you list arthritis symptoms?",
+                "How can I tell if someone has arthritis?",
+                "What signs indicate arthritis?",
+                "What should I look for to identify arthritis?"
+            ],
+            "responses": [
+                "Common symptoms of arthritis include joint pain, stiffness, swelling, and warmth around the affected joint.",
+                "Morning stiffness that improves with movement is typical.",
+                "Inflammatory arthritis types may also cause fatigue, fever, and weight loss.",
+                "Joint deformities and decreased range of motion can occur in severe cases.",
+                "Symptoms may come and go, and they can vary in severity depending on the type of arthritis."
+            ]
+        },
+        {
+            "tag": "arthritis_treatment",
+            "patterns": [
+                "What are the treatments for arthritis?",
+                "How is arthritis treated?",
+                "What are the immediate treatments for arthritis?",
+                "What should be done if someone has arthritis?",
+                "What are the long-term treatments for arthritis?"
+            ],
+            "responses": [
+                "Treatment for arthritis aims to relieve pain, reduce inflammation, and preserve joint function.",
+                "Physical therapy and exercise programs can improve joint flexibility, strength, and range of motion.",
+                "Occupational therapy helps patients learn to manage daily activities with less stress on joints.",
+                "Surgical options include joint replacement surgery for severely affected joints.",
+                "Lifestyle modifications such as weight management and joint protection techniques are important."
+            ]
+        },
+        {
+            "tag": "arthritis_remedies",
+            "patterns": [
+                "Are there home remedies for arthritis?",
+                "What are some natural remedies for arthritis?",
+                "Can lifestyle changes help with arthritis?",
+                "What home care is needed for arthritis?",
+                "How can diet and exercise help with arthritis?"
+            ],
+            "responses": [
+                "Home remedies may include applying heat or cold packs to joints to reduce pain and inflammation.",
+                "Topical creams and ointments containing capsaicin or menthol can provide temporary relief.",
+                "Maintaining a healthy weight and exercising regularly can help manage arthritis symptoms.",
+                "A balanced diet rich in anti-inflammatory foods such as fruits, vegetables, and omega-3 fatty acids may help.",
+                "Avoiding activities that stress the joints and using assistive devices can also improve quality of life."
+            ]
+        },
+        {
+            "tag": "malnutrition_information",
+            "patterns": [
+                "What is malnutrition?",
+                "Can you explain what malnutrition is?",
+                "Define malnutrition.",
+                "Tell me about malnutrition.",
+                "What happens in malnutrition?"
+            ],
+            "responses": [
+                "Malnutrition refers to deficiencies, excesses, or imbalances in a person's intake of energy and/or nutrients.",
+                "It can result from inadequate diet, digestive problems, or certain medical conditions.",
+                "Malnutrition can lead to stunted growth, wasting, weakened immune system, and other health issues.",
+                "It affects people of all ages but is particularly critical in children, pregnant women, and the elderly.",
+                "Treatment involves improving dietary intake and addressing underlying causes with medical supervision."
+            ]
+        },
+        {
+            "tag": "malnutrition_medicine",
+            "patterns": [
+                "Are there any medicines for malnutrition?",
+                "What medications are used to treat malnutrition?",
+                "Can you list drugs for malnutrition?",
+                "What are common malnutrition medications?",
+                "Is there medicine to manage malnutrition?"
+            ],
+            "responses": [
+                "There are no specific medications to treat malnutrition.",
+                "Treatment usually involves nutritional supplements such as fortified foods or therapeutic formulas.",
+                "Vitamin and mineral supplements may be prescribed to correct deficiencies.",
+                "Medical treatments focus on addressing underlying conditions that contribute to malnutrition.",
+                "In severe cases, hospitalization and intravenous feeding may be necessary."
+            ]
+        },
+        {
+            "tag": "malnutrition_symptoms",
+            "patterns": [
+                "What are the symptoms of malnutrition?",
+                "Can you list malnutrition symptoms?",
+                "How can I tell if someone has malnutrition?",
+                "What signs indicate malnutrition?",
+                "What should I look for to identify malnutrition?"
+            ],
+            "responses": [
+                "Symptoms of malnutrition vary but may include weight loss, fatigue, and weakness.",
+                "Children with malnutrition may have stunted growth and delayed development.",
+                "Skin changes, hair loss, and swelling of the abdomen may also occur.",
+                "Malnourished individuals are more susceptible to infections and take longer to recover.",
+                "Early detection and intervention are crucial to prevent complications and improve outcomes."
+            ]
+        },
+        {
+            "tag": "malnutrition_treatment",
+            "patterns": [
+                "What are the treatments for malnutrition?",
+                "How is malnutrition treated?",
+                "What are the immediate treatments for malnutrition?",
+                "What should be done if someone has malnutrition?",
+                "What are the long-term treatments for malnutrition?"
+            ],
+            "responses": [
+                "Treatment involves addressing dietary deficiencies and improving nutritional intake.",
+                "A balanced diet with adequate calories, protein, vitamins, and minerals is essential.",
+                "Nutritional supplements or therapeutic foods may be prescribed to achieve nutrient goals.",
+                "Medical monitoring and support are crucial, especially in severe cases.",
+                "Long-term management includes nutrition education, counseling, and ongoing medical care."
+            ]
+        },
+        {
+            "tag": "malnutrition_remedies",
+            "patterns": [
+                "Are there home remedies for malnutrition?",
+                "What are some natural remedies for malnutrition?",
+                "Can lifestyle changes help with malnutrition?",
+                "What home care is needed for malnutrition?",
+                "How can diet and lifestyle help with malnutrition?"
+            ],
+            "responses": [
+                "Home remedies are not sufficient for treating malnutrition; medical intervention is necessary.",
+                "Improving dietary diversity and ensuring regular meals with nutrient-dense foods is important.",
+                "A nutritionally balanced diet that includes fruits, vegetables, whole grains, and lean proteins is beneficial.",
+                "Encouraging physical activity and providing emotional support are also part of home care.",
+                "Seeking medical advice and monitoring nutritional status regularly are essential for managing malnutrition."
+            ]
+        },
+        {
+            "tag": "Acetaminophen",
+            "patterns": [
+                "What is Acetaminophen?",
+                "Tell me about Acetaminophen.",
+                "What is Acetaminophen used for?",
+                "What does Acetaminophen do?",
+                "Information on Acetaminophen"
+            ],
+            "responses": [
+                "Acetaminophen is a medication used to treat pain and reduce fever.",
+                "It is typically used for mild to moderate pain relief.",
+                "Acetaminophen is commonly found in over-the-counter medications like Tylenol.",
+                "It's important to use Acetaminophen as directed, as overuse can cause liver damage.",
+                "If you have any concerns or questions about using Acetaminophen, consult your doctor or pharmacist."
+            ]
+        },
+        {
+            "tag": "Ibuprofen",
+            "patterns": [
+                "What is Ibuprofen used for?",
+                "Tell me about Ibuprofen.",
+                "What does Ibuprofen do?",
+                "Information on Ibuprofen",
+                "How does Ibuprofen work?"
+            ],
+            "responses": [
+                "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, reduce fever, and decrease inflammation.",
+                "It is often used for conditions like headaches, toothaches, muscle aches, menstrual cramps, and arthritis.",
+                "Ibuprofen is available over-the-counter in brands like Advil and Motrin.",
+                "Like all medications, Ibuprofen can cause side effects, so use it as directed and consult your doctor with concerns.",
+                "Do not take Ibuprofen if you are allergic to it or other NSAIDs."
+            ]
+        },
+        {
+            "tag": "Aspirin",
+            "patterns": [
+                "What is Aspirin?",
+                "Tell me about Aspirin.",
+                "Aspirin uses?",
+                "Information on Aspirin",
+                "How does Aspirin work?"
+            ],
+            "responses": [
+                "Aspirin is a salicylate drug, often used to relieve pain, reduce fever, and decrease inflammation.",
+                "Aspirin also has blood-thinning properties and is used to reduce the risk of heart attack and stroke in some people.",
+                "It is available over-the-counter in low doses and by prescription in higher doses.",
+                "Aspirin should not be given to children or teenagers with a viral illness due to the risk of Reye's syndrome.",
+                "Talk to your doctor before taking aspirin if you have any bleeding disorders, stomach ulcers, or are allergic to NSAIDs."
+            ]
+        },
+        {
+            "tag": "Amoxicillin",
+            "patterns": [
+                "What is Amoxicillin used for?",
+                "Tell me about Amoxicillin.",
+                "Amoxicillin uses?",
+                "What does Amoxicillin treat?",
+                "Information on Amoxicillin"
+            ],
+            "responses": [
+                "Amoxicillin is an antibiotic used to treat bacterial infections, including ear infections, urinary tract infections, pneumonia, and bronchitis.",
+                "It belongs to the penicillin class of antibiotics.",
+                "Amoxicillin works by stopping the growth of bacteria.",
+                "It is available by prescription only.",
+                "Take Amoxicillin exactly as prescribed by your doctor and complete the full course of treatment, even if you feel better before finishing all doses."
+            ]
+        },
+        {
+            "tag": "Lisinopril",
+            "patterns": [
+                "What is Lisinopril used for?",
+                "What does Lisinopril do?",
+                "Information on Lisinopril",
+                "What is Lisinopril?",
+                "Tell me about Lisinopril."
+            ],
+            "responses": [
+                "Lisinopril is an ACE inhibitor medication used to treat high blood pressure and heart failure.",
+                "It works by relaxing blood vessels, making it easier for the heart to pump blood.",
+                "Lisinopril is typically taken once a day and is available by prescription only.",
+                "Common side effects may include dizziness, cough, and headache.",
+                "If you experience severe side effects, like swelling of the face, tongue, or throat, seek medical help immediately."
+            ]
+        },
+        {
+            "tag": "Metformin",
+            "patterns": [
+                "What is Metformin?",
+                "Tell me about Metformin.",
+                "What does Metformin do?",
+                "Information on Metformin",
+                "Uses of Metformin?"
+            ],
+            "responses": [
+                "Metformin is a medication used to treat type 2 diabetes.",
+                "It works by lowering blood sugar levels and improving the body's response to insulin.",
+                "Metformin is typically taken orally, with or without food.",
+                "Side effects can include stomach upset, diarrhea, and lactic acidosis (a rare but serious complication).",
+                "Metformin may interact with other medications, so tell your doctor about all the drugs and supplements you take."
+            ]
+        },
+        {
+            "tag": "Albuterol",
+            "patterns": [
+                "Albuterol information",
+                "Tell me about Albuterol.",
+                "What is Albuterol used for?",
+                "What does Albuterol do?",
+                "How does Albuterol work?"
+            ],
+            "responses": [
+                "Albuterol is a bronchodilator medication that relaxes the muscles in the airways, making it easier to breathe.",
+                "It is often used to treat asthma and other lung diseases that cause breathing problems like COPD.",
+                "Albuterol is available as an inhaler, nebulizer solution, and oral tablet, and it is usually taken as needed for sudden shortness of breath.",
+                "Common side effects may include shakiness, nervousness, and a fast heartbeat.",
+                "Contact your doctor if you have severe side effects or your breathing problems worsen."
+            ]
+        },
+        {
+            "tag": "Atorvastatin",
+            "patterns": [
+                "Information on Atorvastatin",
+                "Tell me about Atorvastatin.",
+                "Uses for Atorvastatin?",
+                "Atorvastatin dosage?",
+                "What does Atorvastatin treat?"
+            ],
+            "responses": [
+                "Atorvastatin belongs to the group of medicines known as statins. It's used to lower cholesterol levels in the blood.",
+                "Atorvastatin works by reducing the amount of cholesterol made by the liver. This can help prevent the buildup of plaque in your arteries, which can reduce your risk for heart attack and stroke.",
+                "This medication comes as a tablet, usually taken once daily. Follow your doctor's instructions on how to take this medication.",
+                "It's important to tell your doctor if you are pregnant, breastfeeding, or planning on becoming pregnant while using atorvastatin.",
+                "Like all medicines, Atorvastatin can cause side effects. These include muscle pain or weakness, and liver problems."
+            ]
+        },
+        {
+            "tag": "Cetirizine",
+            "patterns": [
+                "What is Cetirizine used for?",
+                "Information on Cetirizine",
+                "How does Cetirizine work?",
+                "Tell me about Cetirizine",
+                "Uses for Cetirizine"
+            ],
+            "responses": [
+                "Cetirizine is an antihistamine that relieves allergy symptoms like sneezing, runny nose, itchy eyes, and skin rashes.",
+                "It is used to treat conditions like hay fever, allergic rhinitis, and hives.",
+                "Cetirizine blocks the action of histamine, a substance your body releases during an allergic reaction.",
+                "Cetirizine is available over-the-counter in various forms, including tablets, capsules, syrup, and liquid.",
+                "Drowsiness is a common side effect of Cetirizine, so use caution when driving or operating machinery."
+            ]
+        },
+        {
+            "tag": "Omeprazole",
+            "patterns": [
+                "Information about Omeprazole",
+                "Tell me about Omeprazole",
+                "Omeprazole uses",
+                "How does Omeprazole work?",
+                "What does Omeprazole treat?"
+            ],
+            "responses": [
+                "Omeprazole is a proton pump inhibitor (PPI) used to reduce stomach acid.",
+                "It's used to treat conditions such as acid reflux (GERD), heartburn, ulcers, and Zollinger-Ellison syndrome (a condition that causes excessive stomach acid production).",
+                "Omeprazole works by blocking the action of a pump in the stomach that produces acid.",
+                "It is available by prescription and over-the-counter in lower doses.",
+                "If your symptoms don't improve after a couple of weeks or worsen, contact your healthcare provider."
+            ]
+        },
+        {
+            "tag": "depression_information",
+            "patterns": [
+                "What is depression?",
+                "What are the types of depression?",
+                "What causes depression?",
+                "How common is depression?",
+                "What are the risk factors for developing depression?"
+            ],
+            "responses": [
+                "Depression is a mood disorder characterized by persistent sadness, loss of interest or pleasure in activities, and other symptoms that affect how you feel, think, and handle daily activities.",
+                "Types of depression include major depressive disorder (MDD), persistent depressive disorder (dysthymia), bipolar disorder (manic-depressive illness), and seasonal affective disorder (SAD).",
+                "The exact cause of depression is not known but may involve genetic, biological, environmental, and psychological factors.",
+                "Depression is a common mental health disorder that affects millions of people worldwide.",
+                "Risk factors for depression include family history of depression, trauma or stress, certain medical conditions, and substance abuse."
+            ]
+        },
+        {
+            "tag": "depression_medicine",
+            "patterns": [
+                "What medications are used to treat depression?",
+                "How do antidepressants work?",
+                "Are there any side effects of antidepressant medications?",
+                "Can children take antidepressants?",
+                "What is the role of medication in managing depression?"
+            ],
+            "responses": [
+                "Medications commonly used to treat depression include selective serotonin reuptake inhibitors (SSRIs), serotonin-norepinephrine reuptake inhibitors (SNRIs), tricyclic antidepressants, and atypical antidepressants.",
+                "Antidepressants work by affecting neurotransmitters in the brain, such as serotonin and norepinephrine, to regulate mood.",
+                "Side effects of antidepressant medications may include nausea, weight gain or loss, insomnia, drowsiness, and sexual dysfunction.",
+                "Children and adolescents may take antidepressants under close supervision and monitoring by healthcare professionals.",
+                "Medication plays a role in managing depression by reducing symptoms, improving mood, and helping individuals engage in therapy and other treatment approaches."
+            ]
+        },
+        {
+            "tag": "depression_treatment",
+            "patterns": [
+                "What are effective treatments for depression?",
+                "Is therapy helpful for managing depression?",
+                "Are there lifestyle changes that can help with depression?",
+                "How long does depression treatment usually last?",
+                "Can depression be cured?"
+            ],
+            "responses": [
+                "Effective treatments for depression include psychotherapy (talk therapy), medication, or a combination of both, tailored to individual needs and preferences.",
+                "Therapy, such as cognitive-behavioral therapy (CBT), interpersonal therapy (IPT), or psychodynamic therapy, can help individuals learn coping skills, address negative thought patterns, and improve interpersonal relationships.",
+                "Lifestyle changes that can help with depression include regular exercise, healthy eating, adequate sleep, stress management techniques, and social support.",
+                "The duration of depression treatment varies depending on the severity of symptoms, individual response to treatment, and ongoing management needs.",
+                "While depression can be effectively managed with treatment, complete cure may not always be possible; however, symptom reduction and improved quality of life are achievable goals."
+            ]
+        },
+        {
+            "tag": "depression_symptoms",
+            "patterns": [
+                "What are the symptoms of depression?",
+                "How does depression affect daily life?",
+                "Can depression cause physical symptoms?",
+                "What are the emotional symptoms of depression?",
+                "Is depression always related to sadness?"
+            ],
+            "responses": [
+                "Symptoms of depression include persistent sadness, loss of interest or pleasure in activities once enjoyed, changes in appetite or weight, sleep disturbances, fatigue, feelings of worthlessness or guilt, and difficulty concentrating.",
+                "Depression can affect daily life by impairing functioning at work or school, disrupting relationships, and reducing enjoyment in activities.",
+                "Yes, depression can cause physical symptoms such as headaches, digestive problems, and chronic pain.",
+                "Emotional symptoms of depression include feelings of emptiness, hopelessness, irritability, anxiety, and thoughts of self-harm or suicide.",
+                "While sadness is a common symptom of depression, individuals may experience a range of emotions and symptoms that contribute to the disorder."
+            ]
+        },
+        {
+            "tag": "depression_remedies",
+            "patterns": [
+                "What are natural remedies for depression?",
+                "Can lifestyle changes help with depression?",
+                "Are there alternative therapies for managing depression?",
+                "How effective are relaxation techniques for depression?",
+                "What foods or supplements can support mood and mental health?"
+            ],
+            "responses": [
+                "Natural remedies for depression may include regular exercise, mindfulness meditation, yoga, spending time in nature, and maintaining a balanced diet.",
+                "Lifestyle changes such as reducing stress, improving sleep habits, avoiding alcohol and drugs, and fostering social connections can help manage depression.",
+                "Alternative therapies for depression may include acupuncture, massage therapy, herbal supplements (e.g., St. John's wort), and light therapy (for seasonal affective disorder).",
+                "Relaxation techniques like deep breathing, progressive muscle relaxation, and guided imagery can help reduce symptoms of depression and promote relaxation.",
+                "Foods rich in omega-3 fatty acids, complex carbohydrates, lean proteins, fruits, and vegetables support brain health and may help regulate mood and mental health."
+            ]
+        },
+        {
+            "tag": "Crosin",
+            "patterns": [
+                "Tell me about Crosin.",
+                "What is Crosin used for?",
+                "Information on Crosin.",
+                "Crosin uses",
+                "What does Crosin contain?"
+            ],
+            "responses": [
+                "Crosin is a combination medication commonly used to relieve cough and cold symptoms.",
+                "It typically contains ingredients like an antihistamine (for allergies), a decongestant (to relieve stuffy nose), and an analgesic (for pain relief).",
+                "Crosin is usually available over-the-counter, but it's essential to follow the instructions and recommended dosage.",
+                "Consult your doctor or pharmacist before using Crosin if you have any underlying medical conditions or are taking other medications.",
+                "Remember, it's always best to talk to your healthcare professional for personalized advice on treating your symptoms."
+            ]
+        },
+        {
+            "tag": "Wikoryl",
+            "patterns": [
+                "What is Wikoryl?",
+                "Tell me about Wikoryl.",
+                "Information about Wikoryl",
+                "What does Wikoryl do?",
+                "What are the uses of Wikoryl?"
+            ],
+            "responses": [
+                "Wikoryl is a brand name for an antacid medication.",
+                "Antacids are used to neutralize stomach acid and relieve heartburn, indigestion, and acid reflux.",
+                "Always consult a healthcare professional for proper diagnosis and treatment before starting any new medication.",
+                "If your symptoms persist or worsen, it's crucial to seek medical advice.",
+                "This information should not be considered a substitute for medical advice."
+            ]
+        },
+        {
+            "tag": "Flucold",
+            "patterns": [
+                "Flucold information",
+                "What is Flucold used for?",
+                "Uses of Flucold",
+                "Tell me about Flucold",
+                "What does Flucold do?"
+            ],
+            "responses": [
+                "Flucold is a common brand name for medications that relieve symptoms of the common cold and flu.",
+                "It usually contains a combination of ingredients like analgesics for pain relief, decongestants to relieve stuffy noses, and sometimes antihistamines for allergies.",
+                "Follow the directions and recommended dosage on the packaging, and consult a doctor or pharmacist if you have questions or if your symptoms worsen or persist.",
+                "Self-treating can be dangerous, and it's important to get a proper diagnosis from a healthcare professional.",
+                "This information is not intended as medical advice; always seek personalized guidance from a qualified healthcare provider."
+            ]
+        },
+        {
+            "tag": "Dolo",
+            "patterns": [
+                "Information on Dolo.",
+                "What is Dolo used for?",
+                "What is Dolo?",
+                "Tell me about Dolo.",
+                "Dolo uses"
+            ],
+            "responses": [
+                "Dolo is a brand name commonly associated with paracetamol, also known as acetaminophen.",
+                "Paracetamol is a medication used to relieve pain and reduce fever.",
+                "It is available over-the-counter and is commonly used for headaches, body aches, toothaches, and fever.",
+                "It is crucial to follow the recommended dosage instructions and consult a doctor or pharmacist if you have any concerns or questions.",
+                "Always remember that self-treating can be risky, so seeking professional medical advice is essential for any health issues."
+            ]
+        },
+        {
+            "tag": "Combiflame",
+            "patterns": [
+                "What is Combiflame?",
+                "Information on Combiflame",
+                "Uses of Combiflame",
+                "Combiflame information",
+                "What is in Combiflame?"
+            ],
+            "responses": [
+                "Combiflame is a brand name that typically contains a combination of ibuprofen and paracetamol (acetaminophen).",
+                "Both ibuprofen and paracetamol are analgesics used to reduce pain and fever.",
+                "This combination is often prescribed for its enhanced pain-relieving effects.",
+                "As Combiflame contains ibuprofen, which is an NSAID (non-steroidal anti-inflammatory drug), it may not be suitable for everyone.",
+                "Consult your doctor or pharmacist before taking Combiflame, especially if you have any existing medical conditions or are on other medications."
+            ]
+        },
+        {
+            "tag": "Domstal",
+            "patterns": [
+                "Tell me about Domstal",
+                "Information on Domstal",
+                "What is Domstal used for?",
+                "How does Domstal work?",
+                "Domstal side effects"
+            ],
+            "responses": [
+                "Domstal is a medication that belongs to a group of drugs called dopamine antagonists.",
+                "It is often used to relieve nausea and vomiting, especially those caused by gastrointestinal problems.",
+                "Always seek the advice of your healthcare professional for the correct diagnosis, treatment, and information about potential side effects.",
+                "This information should not replace medical guidance.",
+                "Remember, accurate medical advice is essential for safe and effective treatment."
+            ]
+        },
+        {
+            "tag": "Augmentin",
+            "patterns": [
+                "What is Augmentin used for?",
+                "What is Augmentin?",
+                "Information on Augmentin",
+                "What does Augmentin treat?",
+                "How does Augmentin work?"
+            ],
+            "responses": [
+                "Augmentin is a brand name for a combination antibiotic medication containing amoxicillin and clavulanate.",
+                "It is used to treat various bacterial infections, including respiratory tract infections (like pneumonia and bronchitis), urinary tract infections, skin infections, and ear infections.",
+                "Augmentin is available by prescription only and should only be taken as directed by your healthcare professional.",
+                "Never take antibiotics without a doctor's prescription or share them with others.",
+                "Always consult with a healthcare professional if you suspect you have a bacterial infection or experience any side effects while on antibiotics."
+            ]
+        },
+        {
+            "tag": "Vicks",
+            "patterns": [
+                "Tell me about Vicks.",
+                "What is Vicks?",
+                "Vicks VapoRub uses",
+                "What is Vicks VapoRub used for?",
+                "Information on Vicks VapoRub."
+            ],
+            "responses": [
+                "Vicks VapoRub is a topical ointment containing menthol, camphor, and eucalyptus oil.",
+                "It's applied to the chest and throat to relieve cough and congestion associated with the common cold.",
+                "While it can temporarily ease symptoms, Vicks VapoRub doesn't cure the underlying illness.",
+                "Always follow the product instructions carefully and avoid contact with the eyes, nose, mouth, and broken skin.",
+                "If you're pregnant, breastfeeding, or using Vicks VapoRub on children, consult your doctor first."
+            ]
+        }
+    ]
+}
