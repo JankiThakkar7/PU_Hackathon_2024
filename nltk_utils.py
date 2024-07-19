@@ -2,9 +2,9 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 import numpy as np
 
-# nltk.download('stopwords')
-# nltk.download('punkt')
-# from nltk.corpus import stopwords
+nltk.download('stopwords')
+nltk.download('punkt')
+from nltk.corpus import stopwords
 
 # Initialize stemmer
 stemmer = PorterStemmer()
